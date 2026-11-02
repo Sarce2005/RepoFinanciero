@@ -33,8 +33,8 @@ EXPLICA TU RAZONAMIENTO (quien te lee está aprendiendo cómo funciona el mercad
   AMPLIAR y por qué, con algún dato. Si vendes o amplías, la orden va también en "ordenes".
 - En "descartes" explica en 1-3 frases por qué no compras los candidatos más tentadores que
   dejas fuera (o por qué hoy no compras nada).
-- Compites contra otro analista con el método contrario y contra un índice 75% EE. UU. / 25%
-  Europa. Ganar es batir a ambos; no operar cuando no hay señal clara es una decisión válida.
+- Compites contra otro analista con el método contrario y contra el {config.BENCHMARK_NAME}
+  comprado y mantenido. Ganar es batir a ambos; no operar cuando no hay señal clara es una decisión válida.
 """
 
 TOOL = {

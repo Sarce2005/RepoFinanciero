@@ -10,7 +10,7 @@ import pandas as pd
 from . import config
 from .strategies import STRATEGIES
 
-NAMES = {k: s.name for k, s in STRATEGIES.items()} | {"BENCH": "Índice 75/25"}
+NAMES = {k: s.name for k, s in STRATEGIES.items()} | {"BENCH": config.BENCHMARK_NAME}
 COLORS = {"A": "#2a78d6", "B": "#e0662f", "BENCH": "#8a8f98"}
 
 
@@ -95,7 +95,7 @@ def build(state_dir: Path, out_dir: Path) -> Path:
         win = f"{100 * (sells.pnl_eur > 0).mean():.0f}%" if len(sells) else "–"
         sub = (f"{len(a_ops)} operaciones · aciertos {win}" if a != "BENCH"
                else "compra y mantén")
-        method = STRATEGIES[a].method if a in STRATEGIES else "S&P 500 75% · EURO STOXX 50 25%"
+        method = STRATEGIES[a].method if a in STRATEGIES else "índice de referencia"
         cards.append(f"""<div class="card" style="--c:{COLORS[a]}">
           <div class="pos">#{pos}</div><div class="name">{NAMES[a]}</div>
           <div class="method">{method}</div>
@@ -265,7 +265,7 @@ def append_diary(summary: dict, out_dir: Path):
             lines.append("")
 
     ret_b = 100 * (summary["bench"] / config.INITIAL_CAPITAL - 1)
-    lines.append(f"**Índice 75/25 (el rival a batir)**: {summary['bench']:,.0f} € ({ret_b:+.2f}%)\n")
+    lines.append(f"**{config.BENCHMARK_NAME} (el rival a batir)**: {summary['bench']:,.0f} € ({ret_b:+.2f}%)\n")
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / "diario.md"
     if not path.exists():

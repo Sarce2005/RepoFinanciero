@@ -80,6 +80,7 @@ def load_universe(refresh: bool = False) -> pd.DataFrame:
         return pd.read_csv(cache)
 
     us_keys = ["sp100", "ndx"] if config.UNIVERSE_MODE == "reducido" else ["sp500", "ndx"]
+    europe = [] if config.UNIVERSE_MODE == "usa" else EUROSTOXX50 + IBEX35
     us: list[str] = []
     try:
         for k in us_keys:
@@ -89,7 +90,7 @@ def load_universe(refresh: bool = False) -> pd.DataFrame:
         log.warning("Wikipedia no disponible (%s); uso la lista de respaldo", exc)
         us = US_FALLBACK
 
-    tickers = sorted(set(us) | set(EUROSTOXX50) | set(IBEX35))
+    tickers = sorted(set(us) | set(europe))
     df = pd.DataFrame({"ticker": tickers})
     df["market"] = df["ticker"].map(_market)
     df["ccy"] = df["market"].map(lambda m: "USD" if m == "US" else "EUR")

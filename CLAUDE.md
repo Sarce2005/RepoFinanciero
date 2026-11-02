@@ -14,10 +14,11 @@ llamada a la API de Claude con su propia personalidad:
   Bollinger) solo en valores por encima de su SMA200 y busca salir en la SMA20. El sistema aplica
   automáticamente un stop fijo de -8 %.
 
-Los dos compiten contra un **índice 75 % S&P 500 / 25 % EURO STOXX 50**, comprado el primer día.
-Todo se mide en EUR y cada uno arranca con 100.000 €. El universo es el modo `"reducido"`:
-S&P 100, NASDAQ-100, EURO STOXX 50 e IBEX 35, unos 230 valores.
-Fechas: del **03/11/2026 al 03/12/2026** (ver `config.py`). El último día solo se ejecutan las
+Los dos compiten contra el **S&P 500** comprado y mantenido desde el primer día.
+Todo se mide en EUR (los valores cotizan en USD y se convierten con el EURUSD del día) y cada
+uno arranca con 100.000 €. El universo es el modo `"usa"`: **S&P 500 + Nasdaq-100**, unos 520
+valores, leídos de Wikipedia en cada sesión.
+Fechas: del **03/11/2026 al 31/12/2026** (ver `config.py`). El último día solo se ejecutan las
 órdenes pendientes y se cierra el marcador.
 
 El objetivo del usuario es **aprender cómo funciona el mercado** viendo razonar a los dos

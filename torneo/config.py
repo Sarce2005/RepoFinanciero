@@ -8,7 +8,7 @@ CACHE_DIR = ROOT / ".cache"
 
 # --- Calendario --------------------------------------------------------------
 START_DATE = "2026-11-03"   # primera sesión de decisión
-END_DATE = "2026-12-03"     # ese día solo se ejecutan órdenes pendientes y se cierra el marcador
+END_DATE = "2026-12-31"     # ese día solo se ejecutan órdenes pendientes y se cierra el marcador
 
 # --- Dinero ------------------------------------------------------------------
 BASE_CCY = "EUR"
@@ -23,14 +23,16 @@ MIN_TRADE_EUR = 2_000           # nada de operaciones de calderilla
 PENDING_ORDER_MAX_AGE = 3       # sesiones que una orden puede esperar (festivos) antes de cancelarse
 
 # --- Universo ----------------------------------------------------------------
+# "usa":      S&P 500 + NASDAQ-100, solo EE. UU.             (~520 valores únicos)
 # "reducido": S&P 100 + NASDAQ-100 + EURO STOXX 50 + IBEX 35  (~230 valores únicos)
 # "amplio":   S&P 500 + NASDAQ-100 + EURO STOXX 50 + IBEX 35  (~580 valores únicos)
-UNIVERSE_MODE = "reducido"
+UNIVERSE_MODE = "usa"
 MIN_AVG_TURNOVER_EUR = 20_000_000   # liquidez mínima: volumen medio diario de 20 días en EUR
 HISTORY_PERIOD = "1y"               # suficiente para SMA 200
 
 # --- Benchmark (compra y mantén, sin rebalanceo) -----------------------------
-BENCHMARK = {"^GSPC": 0.75, "^STOXX50E": 0.25}   # 75% EE. UU. / 25% Europa
+BENCHMARK = {"^GSPC": 1.0}   # 100% S&P 500, el índice natural para un universo de EE. UU.
+BENCHMARK_NAME = "S&P 500"
 FX_TICKER = "EURUSD=X"                           # USD por 1 EUR
 
 # --- Modelo ------------------------------------------------------------------

@@ -60,5 +60,4 @@ término usa números inventados.
 2. Sus órdenes se ejecutan a la **apertura** de la siguiente sesión, a un precio que todavía
    no conoce. Así no puede hacer trampa con información del futuro.
 3. Cada operación paga una comisión del 0,1 %. Por eso a veces lo mejor es no hacer nada.
-4. El **índice 75/25** (75 % S&P 500 y 25 % EURO STOXX 50, comprado el primer día y sin tocar)
-   es el rival a batir. Si un agente no lo supera, habría salido mejor no hacer nada.
+4. El **S&P 500** (comprado el primer día y sin tocar) es el rival a batir. Si un agente no lo supera, habría salido mejor no hacer nada.

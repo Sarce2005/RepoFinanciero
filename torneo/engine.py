@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 
 
 class Benchmark:
-    """Compra y mantén 75/25 desde el cierre del primer día del torneo."""
+    """Compra y mantén el índice de referencia desde el cierre del primer día del torneo."""
 
     def __init__(self, state_dir: Path):
         self.path = state_dir / "benchmark.json"
