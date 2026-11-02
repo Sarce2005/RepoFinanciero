@@ -66,8 +66,21 @@ def _table(df: pd.DataFrame, cols: dict) -> str:
 
 
 def build(state_dir: Path, out_dir: Path) -> Path:
-    eq, ops, decs, carteras = _read(state_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
+    if not (state_dir / "equity.csv").exists():
+        # Antes de la primera sesión no hay nada que pintar: página de espera, no un error.
+        out = out_dir / "index.html"
+        out.write_text(
+            "<!doctype html><meta charset='utf-8'>"
+            "<meta name='viewport' content='width=device-width,initial-scale=1'>"
+            "<title>Torneo de bolsa</title>"
+            "<body style='font-family:system-ui;max-width:640px;margin:40px auto;padding:0 16px'>"
+            "<h1>Torneo de bolsa</h1>"
+            f"<p>El torneo empieza el {pd.Timestamp(config.START_DATE):%d/%m/%Y}. "
+            "El marcador aparecerá tras la primera sesión.</p></body>",
+            encoding="utf-8")
+        return out
+    eq, ops, decs, carteras = _read(state_dir)
     last = eq[eq.date == eq.date.max()].set_index("agent")
     as_of = eq.date.max()
 
