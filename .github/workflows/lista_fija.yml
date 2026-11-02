@@ -1,0 +1,30 @@
+name: Generar lista fija (250 por volumen)
+
+# Se ejecuta una vez, al subir tools/top_volumen.py, y guarda torneo/lista_fija.csv.
+on:
+  push:
+    paths: ["tools/top_volumen.py"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  lista:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Calcular el top 250 del 02/11/2026
+        run: python tools/top_volumen.py 2026-11-02
+      - name: Guardar la lista
+        run: |
+          git config user.name "torneo-bot"
+          git config user.email "torneo-bot@users.noreply.github.com"
+          git add torneo/lista_fija.csv
+          git diff --cached --quiet || git commit -m "Lista fija: 250 valores del S&P 500 por volumen del 02/11/2026"
+          git push
