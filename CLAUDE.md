@@ -16,8 +16,9 @@ llamada a la API de Claude con su propia personalidad:
 
 Los dos compiten contra el **S&P 500** comprado y mantenido desde el primer día.
 Todo se mide en EUR (los valores cotizan en USD y se convierten con el EURUSD del día) y cada
-uno arranca con 100.000 €. El universo es el modo `"usa"`: **S&P 500 + Nasdaq-100**, unos 520
-valores, leídos de Wikipedia en cada sesión.
+uno arranca con 100.000 €. El universo es el modo `"fija"`: **250 valores del S&P 500**, los de
+más volumen negociado en dólares el 02/11/2026, guardados en `torneo/lista_fija.csv`. La lista
+es fija durante todo el torneo: no la regeneres ni la cambies.
 Fechas: del **03/11/2026 al 31/12/2026** (ver `config.py`). El último día solo se ejecutan las
 órdenes pendientes y se cierra el marcador.
 
@@ -32,7 +33,8 @@ No es asesoramiento financiero. No conviertas nada de esto en recomendaciones de
 .github/workflows/sesion_diaria.yml  cron L-V 21:30 UTC; acciones fijadas por SHA (política del repo)
 torneo/
   config.py      reglamento: fechas, capital, comisión 0,1 %, límites, modelo
-  universe.py    lista de valores
+  universe.py    lista de valores (modo "fija" -> lista_fija.csv)
+  lista_fija.csv los 250 valores del torneo (generada con tools/top_volumen.py el 02/11/2026)
   data.py        descarga con yfinance (y mercado sintético para `simulate`)
   indicators.py  SMA, RSI, MACD, ADX, ATR, Bollinger, Donchian
   strategies.py  cribado, stops obligatorios y personalidad (prompt) de cada analista

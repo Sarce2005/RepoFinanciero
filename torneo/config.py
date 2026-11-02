@@ -23,10 +23,12 @@ MIN_TRADE_EUR = 2_000           # nada de operaciones de calderilla
 PENDING_ORDER_MAX_AGE = 3       # sesiones que una orden puede esperar (festivos) antes de cancelarse
 
 # --- Universo ----------------------------------------------------------------
+# "fija":     250 valores del S&P 500 con más volumen en dólares el 02/11/2026
+#             (torneo/lista_fija.csv, generada con tools/top_volumen.py)
 # "usa":      S&P 500 + NASDAQ-100, solo EE. UU.             (~520 valores únicos)
 # "reducido": S&P 100 + NASDAQ-100 + EURO STOXX 50 + IBEX 35  (~230 valores únicos)
 # "amplio":   S&P 500 + NASDAQ-100 + EURO STOXX 50 + IBEX 35  (~580 valores únicos)
-UNIVERSE_MODE = "usa"
+UNIVERSE_MODE = "fija"
 MIN_AVG_TURNOVER_EUR = 20_000_000   # liquidez mínima: volumen medio diario de 20 días en EUR
 HISTORY_PERIOD = "1y"               # suficiente para SMA 200
 

@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import io
 import logging
+from pathlib import Path
 
 import pandas as pd
 
@@ -138,6 +139,12 @@ def _market(ticker: str) -> str:
 
 def load_universe(refresh: bool = False) -> pd.DataFrame:
     """Devuelve un DataFrame con columnas ticker, market, ccy."""
+    if config.UNIVERSE_MODE == "fija":
+        # Lista fija del torneo: top 250 del S&P 500 por volumen en dólares del 02/11/2026
+        # (generada una sola vez con tools/top_volumen.py). No se descarga nada.
+        fija = pd.read_csv(Path(__file__).with_name("lista_fija.csv"))
+        log.info("Universo fijo: %d valores (lista del %s)", len(fija), fija["fecha"].iloc[0])
+        return pd.DataFrame({"ticker": fija["ticker"], "market": "US", "ccy": "USD"})
     cache = config.CACHE_DIR / f"universe_{config.UNIVERSE_MODE}.csv"
     if cache.exists() and not refresh:
         return pd.read_csv(cache)
