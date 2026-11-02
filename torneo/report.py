@@ -112,7 +112,11 @@ def build(state_dir: Path, out_dir: Path) -> Path:
         items = "".join(
             f"<li><b>{o['action']} {o['ticker']}</b>"
             f"{' · ' + str(round(100 * o.get('weight', 0), 1)) + '%' if o['action'] == 'BUY' else ''}"
-            f" — {html.escape(o['reason'])}</li>" for o in d["aceptadas"])
+            f"{' — <i>' + html.escape(o['en_sencillo']) + '</i>' if o.get('en_sencillo') else ''}"
+            f"<br><span class='muted'>{html.escape(o['reason'])}</span></li>" for o in d["aceptadas"])
+        items += "".join(f"<li><b>{html.escape(str(r.get('decision', '')))} {html.escape(str(r.get('ticker', '')))}</b>"
+                         f" — {html.escape(str(r.get('motivo', '')))}</li>"
+                         for r in d.get("revision_cartera", []) if r.get("decision") == "MANTENER")
         items += "".join(f"<li><b>STOP {s['ticker']}</b> — {html.escape(s['motivo'])}</li>"
                          for s in d["stops"])
         items += "".join(f"<li class='rej'><b>RECHAZADA {o.get('action')} {o.get('ticker')}</b>"
@@ -120,7 +124,8 @@ def build(state_dir: Path, out_dir: Path) -> Path:
         dec_html.append(f"""<div class="dec" style="--c:{COLORS[a]}">
           <h3>{NAMES[a]} <span class="muted">· decidido el {d['date']}, se ejecuta en la próxima apertura</span></h3>
           <p class="lectura">{html.escape(d['lectura'])}</p>
-          <ul>{items or '<li class="muted">Sin órdenes: hoy no ve señal clara.</li>'}</ul></div>""")
+          <ul>{items or '<li class="muted">Sin órdenes: hoy no ve señal clara.</li>'}</ul>
+          {'<p class="muted"><b>Descarta:</b> ' + html.escape(d['descartes']) + '</p>' if d.get('descartes') else ''}</div>""")
 
     # --- carteras
     port_html = []
@@ -173,29 +178,97 @@ td:last-child{{white-space:normal;min-width:260px}}
     return out
 
 
+STOP_PLAIN = {
+    "A": "El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) "
+         "desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado.",
+    "B": "El Contrarian sale si pierde más de un 8% desde la compra: el rebote no llega y "
+         "corta la pérdida antes de que crezca.",
+}
+ACCION = {"BUY": "Compra", "SELL": "Venta"}
+DIARIO_CABECERA = """# Diario del torneo
+
+Cada sesión, para cada agente: **qué se ha ejecutado hoy** (con el motivo que dio al decidirlo),
+**cómo ve el mercado**, **qué hace con lo que ya tiene**, **qué decide para mañana** y **qué
+descarta**. Las órdenes llevan la explicación técnica y otra *en cristiano*.
+¿Un término que no conoces? Mira el [glosario](glosario.md).
+
+Simulación sin dinero real. Nada de esto es una recomendación de inversión.
+"""
+
+
 def append_diary(summary: dict, out_dir: Path):
     """Resumen diario en Markdown, cómodo de leer desde el móvil en GitHub."""
-    lines = [f"\n## {summary['date']}\n"]
+    lines = [f"\n---\n\n## {summary['date']}\n"]
     for a, d in summary["agents"].items():
         ret = 100 * (d["equity"] / config.INITIAL_CAPITAL - 1)
-        lines.append(f"**{NAMES[a]}**: {d['equity']:,.0f} € ({ret:+.2f}%)  ")
+        lines.append(f"### {NAMES[a]}: {d['equity']:,.0f} € ({ret:+.2f}%)\n")
+
+        done = [f for f in d["fills"]]
+        if done:
+            lines.append("**Ejecutado hoy a la apertura**")
+            for f in done:
+                acc = ACCION.get(f["action"], f["action"])
+                if f["status"] != "EJECUTADA":
+                    lines.append(f"- ❌ {acc} de {f['ticker']} {f['status'].lower()}: {f.get('note', '')}")
+                    continue
+                res = ""
+                if f["action"] == "SELL":
+                    res = f" → resultado **{f['pnl_eur']:+,.0f} €**"
+                lines.append(f"- {acc} de **{f['ticker']}**: {f['shares']} acciones a "
+                             f"{f['price_local']}{res}")
+                why = f.get("en_sencillo") or f.get("reason", "")
+                if f.get("kind") == "stop":
+                    why = "stop automático. " + STOP_PLAIN.get(a, "")
+                if why:
+                    lines.append(f"  - *Por qué (decidido el {f['decided']}):* {why}")
+            lines.append("")
+
         if d.get("lectura"):
-            lines.append(f"_{d['lectura']}_  ")
-        for f in d["fills"]:
-            lines.append(f"- Ejecutada {f['action']} {f['ticker']} ({f['status']}) "
-                         f"{f['shares']} acc. a {f['price_local']}")
-        for s in d["stops"]:
-            lines.append(f"- STOP mañana {s['ticker']}: {s['motivo']}")
-        for o in d["accepted"]:
-            lines.append(f"- Orden para mañana: {o['action']} {o['ticker']} — {o['reason']}")
+            lines.append(f"**Cómo ve el mercado:** {d['lectura']}\n")
+
+        if d.get("cartera") or d.get("revision") or d["stops"]:
+            lines.append("**Lo que ya tiene**")
+            rev = {r.get("ticker"): r for r in d.get("revision", [])}
+            for c in d.get("cartera", []):
+                r = rev.get(c["ticker"], {})
+                dec = r.get("decision", "MANTENER")
+                motivo = r.get("motivo", "sin comentario")
+                lines.append(f"- **{c['ticker']}** ({c['rent_pct']:+.1f}% desde el "
+                             f"{c['fecha_entrada']}, pesa un {c['peso_pct']:.0f}%): "
+                             f"**{dec}**. {motivo}")
+            for st in d["stops"]:
+                lines.append(f"- **{st['ticker']}**: **STOP automático**, se vende mañana. "
+                             f"{STOP_PLAIN.get(a, '')} ({st['motivo']})")
+            lines.append("")
+
+        if d["accepted"]:
+            lines.append("**Decide para mañana**")
+            for o in d["accepted"]:
+                acc = ACCION.get(o["action"], o["action"])
+                tam = (f" ({100 * o.get('weight', 0):.0f}% de la cartera)" if o["action"] == "BUY"
+                       else f" ({100 * o.get('fraction', 1):.0f}% de la posición)")
+                lines.append(f"- {acc} de **{o['ticker']}**{tam}")
+                if o.get("en_sencillo"):
+                    lines.append(f"  - *En cristiano:* {o['en_sencillo']}")
+                lines.append(f"  - *Técnico:* {o['reason']}")
+            lines.append("")
+        elif "lectura" in d and d.get("lectura"):
+            lines.append("**Decide para mañana:** no operar. No ve una señal clara.\n")
+
+        if d.get("descartes"):
+            lines.append(f"**Lo que descarta:** {d['descartes']}\n")
+
         for o in d["rejected"]:
-            lines.append(f"- Rechazada {o.get('action')} {o.get('ticker')}: {o['rechazo']}")
-        lines.append("")
+            lines.append(f"- 🚫 El árbitro rechaza {ACCION.get(o.get('action'), o.get('action'))} "
+                         f"de {o.get('ticker')}: {o['rechazo']}")
+        if d["rejected"]:
+            lines.append("")
+
     ret_b = 100 * (summary["bench"] / config.INITIAL_CAPITAL - 1)
-    lines.append(f"**Índice 75/25**: {summary['bench']:,.0f} € ({ret_b:+.2f}%)\n")
+    lines.append(f"**Índice 75/25 (el rival a batir)**: {summary['bench']:,.0f} € ({ret_b:+.2f}%)\n")
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / "diario.md"
     if not path.exists():
-        path.write_text("# Diario del torneo\n", encoding="utf-8")
+        path.write_text(DIARIO_CABECERA, encoding="utf-8")
     with path.open("a", encoding="utf-8") as f:
         f.write("\n".join(lines))

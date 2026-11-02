@@ -35,5 +35,5 @@ FX_TICKER = "EURUSD=X"                           # USD por 1 EUR
 
 # --- Modelo ------------------------------------------------------------------
 MODEL = "claude-sonnet-5-5"
-MAX_TOKENS = 4000
+MAX_TOKENS = 6000
 MAX_CANDIDATES = 15   # candidatos por agente que llegan al modelo (esto es lo que cuesta tokens)

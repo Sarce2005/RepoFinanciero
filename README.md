@@ -62,9 +62,10 @@ día no duplica nada: la sesión ya procesada se salta.
 | Archivo | Qué contiene |
 |---|---|
 | `docs/index.html` | Marcador, curva de rentabilidad, últimas decisiones, carteras y operaciones |
-| `docs/diario.md` | Resumen diario en texto, con las justificaciones |
-| `state/operaciones.csv` | Todas las operaciones ejecutadas (ábrelo con Excel) |
-| `state/decisiones.jsonl` | Cada decisión con lectura de mercado, órdenes rechazadas y tokens usados |
+| `docs/diario.md` | **Lo más cómodo para seguirlo.** Por agente y sesión: qué se ejecutó (y por qué se decidió), cómo ve el mercado, qué hace con cada posición, qué decide para mañana (explicación técnica y *en cristiano*) y qué descarta |
+| `docs/glosario.md` | Qué significa cada indicador (RSI, ADX, MACD, Bollinger, ATR…) sin jerga |
+| `state/operaciones.csv` | Todas las operaciones ejecutadas con su motivo y su resultado (ábrelo con Excel) |
+| `state/decisiones.jsonl` | Cada decisión completa: lectura, órdenes, repaso de cartera, descartes, rechazos y tokens |
 | `state/cartera_A.json`, `cartera_B.json` | Estado de cada cartera |
 
 ## Ajustes (`torneo/config.py`)

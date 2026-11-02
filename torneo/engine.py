@@ -126,7 +126,9 @@ def _decide(p: Portfolio, strat, md: MarketData, date, snaps: pd.DataFrame, eq: 
     slots = max(0, config.MAX_OPS_PER_DAY - len(stops))
     cands = strat.screen(snaps)
     out = {"stops": stops, "accepted": [], "rejected": [], "lectura": "", "usage": {},
-           "n_candidates": len(cands)}
+           "n_candidates": len(cands), "revision": [], "descartes": "",
+           "cartera": [{"ticker": v["ticker"], "rent_pct": v["rent_pct"], "peso_pct": v["peso_pct"],
+                        "fecha_entrada": v["fecha_entrada"]} for v in view]}
     if slots == 0:
         out["lectura"] = "Sin huecos: los stops automáticos han consumido las 5 operaciones."
     else:
@@ -139,11 +141,16 @@ def _decide(p: Portfolio, strat, md: MarketData, date, snaps: pd.DataFrame, eq: 
                                         pending_sells, md, date)
         for a in accepted:
             p.queue(a["action"], a["ticker"], a["reason"], date,
-                    weight=a.get("weight", 0), fraction=a.get("fraction", 1.0))
+                    weight=a.get("weight", 0), fraction=a.get("fraction", 1.0),
+                    plain=a.get("en_sencillo", ""))
         out.update(accepted=accepted, rejected=rejected, usage=usage,
-                   lectura=decision.get("lectura_mercado", ""))
+                   lectura=decision.get("lectura_mercado", ""),
+                   revision=decision.get("revision_cartera", []) or [],
+                   descartes=decision.get("descartes", "") or "")
 
     p.log_decision({"date": _d(date), "lectura": out["lectura"], "stops": stops,
                     "aceptadas": out["accepted"], "rechazadas": out["rejected"],
+                    "revision_cartera": out["revision"], "descartes": out["descartes"],
+                    "cartera": out["cartera"],
                     "candidatos": list(cands.index), "usage": out["usage"]})
     return out

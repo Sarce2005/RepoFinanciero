@@ -139,15 +139,16 @@ class Portfolio:
                "id": o["id"], "action": o["action"], "ticker": o["ticker"], "status": status,
                "shares": shares, "price_local": round(price, 4), "value_eur": round(value_eur, 2),
                "fee_eur": round(fee_eur, 2), "pnl_eur": round(pnl_eur, 2), "kind": o["kind"],
-               "reason": o["reason"], "note": note}
+               "reason": o["reason"], "en_sencillo": o.get("plain", ""), "note": note}
         self._append_csv("operaciones.csv", row)
         return row
 
     # ---------------------------------------------------------------- órdenes
-    def queue(self, action, ticker, reason, date, kind="agente", weight=0.0, fraction=1.0):
+    def queue(self, action, ticker, reason, date, kind="agente", weight=0.0, fraction=1.0,
+              plain=""):
         o = {"id": f"{self.agent}-{self.s['next_id']:04d}", "created": _d(date),
              "action": action, "ticker": ticker, "weight": weight, "fraction": fraction,
-             "reason": reason, "kind": kind, "age": 0}
+             "reason": reason, "plain": plain, "kind": kind, "age": 0}
         self.s["next_id"] += 1
         self.s["pending"].append(o)
         return o
