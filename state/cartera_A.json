@@ -1,0 +1,70 @@
+{
+  "agent": "A",
+  "cash": 100000.0,
+  "positions": {},
+  "pending": [
+    {
+      "id": "A-0001",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "BRK-B",
+      "weight": 0.15,
+      "fraction": 1.0,
+      "reason": "Cierre 557.07 sobre SMA50 517.37 y SMA200 496.38; ADX 46.6 indica tendencia muy fuerte y MACD hist +1.43. ATR% de 1.31 es el más bajo de la lista, permite peso alto con poco riesgo.",
+      "plain": "Berkshire sube de forma firme y ordenada, con poca oscilación diaria. Es la ola más tranquila, así que podemos poner más dinero.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "A-0002",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "MA",
+      "weight": 0.12,
+      "fraction": 1.0,
+      "reason": "Cierre 647.18 sobre SMA20 614.9, SMA50 588.67 y SMA200 535.38; ADX 37.1 y MACD hist +2.82. RSI14 68.7 sin sobrecompra extrema y retroceso de -1.66% hoy; ATR% 1.93 moderado.",
+      "plain": "Mastercard está en tendencia alcista clara y hoy ha bajado un poco, así que entramos sin perseguir un pico.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "A-0003",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "UNP",
+      "weight": 0.12,
+      "fraction": 1.0,
+      "reason": "Cierre 303.43 sobre SMA50 287.21 y SMA200 269.43; ADX 42.9 y MACD hist +1.74. ATR% 1.83 bajo y RSI14 65.9 lejos de sobrecompra; subida de 20d de +9.7%, no sobreextendida.",
+      "plain": "Union Pacific sube con fuerza sostenida y sin excesos. Es una entrada más tranquila que las subidas disparadas.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "A-0004",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "MAR",
+      "weight": 0.1,
+      "fraction": 1.0,
+      "reason": "Cierre 416.38 muy por encima de SMA50 362.52 y SMA200 356.03; ADX 40.6, MACD hist +1.66. ATR% 2.3 medio, por eso peso reducido.",
+      "plain": "Marriott lleva una tendencia alcista fuerte. Su oscilación es media, así que ponemos una cantidad intermedia.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "A-0005",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "AMGN",
+      "weight": 0.1,
+      "fraction": 1.0,
+      "reason": "Cierre 461.26 sobre SMA50 420.83 y SMA200 373.28; ADX 37.0, MACD hist +2.54. RSI14 67 y RSI2 39 indican un pequeño retroceso de corto plazo; ATR% 2.37.",
+      "plain": "Amgen sube con fuerza y hoy ha dado un respiro, lo que permite subirse a la ola a mejor precio.",
+      "kind": "agente",
+      "age": 0
+    }
+  ],
+  "last_equity": 100000.0,
+  "last_run": "2026-11-03",
+  "next_id": 6
+}

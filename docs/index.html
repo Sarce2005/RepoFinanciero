@@ -1,1 +1,53 @@
-<!doctype html><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Torneo de bolsa</title><body style='font-family:system-ui;max-width:640px;margin:40px auto;padding:0 16px'><h1>Torneo de bolsa</h1><p>El torneo empieza el 03/11/2026. El marcador aparecerá tras la primera sesión.</p></body>
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Torneo de Bolsa</title>
+<style>
+:root{--bg:#f7f7f5;--fg:#1d1f23;--muted:#6b7079;--card:#fff;--line:#e3e3df}
+@media (prefers-color-scheme:dark){:root{--bg:#16181c;--fg:#e8e8e6;--muted:#9097a0;--card:#1f2228;--line:#30343b}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:980px;margin:auto;padding:24px 16px 60px}
+h1{margin:0;font-size:26px} h2{margin:36px 0 12px;font-size:18px} h3{margin:0 0 6px;font-size:15px}
+.muted{color:var(--muted);font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}
+.card,.dec{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:14px 16px}
+.pos{float:right;color:var(--muted);font-weight:700} .name{font-weight:700}
+.method{color:var(--muted);font-size:13px} .val{font-size:24px;font-weight:700;margin-top:6px;font-variant-numeric:tabular-nums}
+.ret{font-weight:700} .up{color:#1f9d55} .down{color:#d64545}
+svg{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.zero{stroke:var(--line)} .tick{fill:var(--muted);font-size:11px} .lbl{font-size:12px;font-weight:700}
+.dec{margin-bottom:12px} .dec ul{margin:6px 0 0;padding-left:18px} .dec li{margin:4px 0}
+.lectura{margin:4px 0;font-style:italic} .rej{color:var(--muted)}
+.scroll{overflow-x:auto} table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td:last-child{white-space:normal;min-width:260px}
+</style></head><body><main>
+<h1>Torneo de Bolsa</h1>
+<div class="muted">Simulación sin dinero real · datos al cierre del 03/11/2026 · capital inicial 100,000 € por jugador</div>
+<div class="cards"><div class="card" style="--c:#2a78d6">
+          <div class="pos">#1</div><div class="name">El Surfista</div>
+          <div class="method">Seguimiento de tendencia (momentum)</div>
+          <div class="val">100,000 €</div>
+          <div class="ret up">+0.00%</div>
+          <div class="muted">0 operaciones · aciertos –</div></div><div class="card" style="--c:#e0662f">
+          <div class="pos">#2</div><div class="name">El Contrarian</div>
+          <div class="method">Reversión a la media</div>
+          <div class="val">100,000 €</div>
+          <div class="ret up">+0.00%</div>
+          <div class="muted">0 operaciones · aciertos –</div></div><div class="card" style="--c:#8a8f98">
+          <div class="pos">#3</div><div class="name">S&P 500</div>
+          <div class="method">índice de referencia</div>
+          <div class="val">100,000 €</div>
+          <div class="ret up">+0.00%</div>
+          <div class="muted">compra y mantén</div></div></div>
+<h2>Rentabilidad acumulada</h2><p class='muted'>La gráfica aparece a partir de la segunda sesión.</p>
+<h2>Últimas decisiones</h2><div class="dec" style="--c:#2a78d6">
+          <h3>El Surfista <span class="muted">· decidido el 2026-11-03, se ejecuta en la próxima apertura</span></h3>
+          <p class="lectura">Hay muchos valores en tendencia alcista fuerte (ADX&gt;30, precio sobre SMA50 y SMA200), pero casi todos vienen de subidas de +15-30% en 20 días con RSI14 alto (65-85). Ninguno marca ruptura de 20 días ni cruce alcista del MACD hoy. Entro con posiciones moderadas en los que combinan tendencia con volatilidad contenida y no están sobreextendidos.</p>
+          <ul><li><b>BUY BRK-B</b> · 15.0% — <i>Berkshire sube de forma firme y ordenada, con poca oscilación diaria. Es la ola más tranquila, así que podemos poner más dinero.</i><br><span class='muted'>Cierre 557.07 sobre SMA50 517.37 y SMA200 496.38; ADX 46.6 indica tendencia muy fuerte y MACD hist +1.43. ATR% de 1.31 es el más bajo de la lista, permite peso alto con poco riesgo.</span></li><li><b>BUY MA</b> · 12.0% — <i>Mastercard está en tendencia alcista clara y hoy ha bajado un poco, así que entramos sin perseguir un pico.</i><br><span class='muted'>Cierre 647.18 sobre SMA20 614.9, SMA50 588.67 y SMA200 535.38; ADX 37.1 y MACD hist +2.82. RSI14 68.7 sin sobrecompra extrema y retroceso de -1.66% hoy; ATR% 1.93 moderado.</span></li><li><b>BUY UNP</b> · 12.0% — <i>Union Pacific sube con fuerza sostenida y sin excesos. Es una entrada más tranquila que las subidas disparadas.</i><br><span class='muted'>Cierre 303.43 sobre SMA50 287.21 y SMA200 269.43; ADX 42.9 y MACD hist +1.74. ATR% 1.83 bajo y RSI14 65.9 lejos de sobrecompra; subida de 20d de +9.7%, no sobreextendida.</span></li><li><b>BUY MAR</b> · 10.0% — <i>Marriott lleva una tendencia alcista fuerte. Su oscilación es media, así que ponemos una cantidad intermedia.</i><br><span class='muted'>Cierre 416.38 muy por encima de SMA50 362.52 y SMA200 356.03; ADX 40.6, MACD hist +1.66. ATR% 2.3 medio, por eso peso reducido.</span></li><li><b>BUY AMGN</b> · 10.0% — <i>Amgen sube con fuerza y hoy ha dado un respiro, lo que permite subirse a la ola a mejor precio.</i><br><span class='muted'>Cierre 461.26 sobre SMA50 420.83 y SMA200 373.28; ADX 37.0, MACD hist +2.54. RSI14 67 y RSI2 39 indican un pequeño retroceso de corto plazo; ATR% 2.37.</span></li></ul>
+          <p class="muted"><b>Descarta:</b> REGN, VLTO, ROP y LLY están muy extendidos (RSI14 76-85, precio muy por encima de la SMA20), con riesgo de corrección. ACN y CRL tienen ATR% de 4.2-4.4 y MACD débil. Dejo ~41% en liquidez para ir entrando si aparecen rupturas.</p></div><div class="dec" style="--c:#e0662f">
+          <h3>El Contrarian <span class="muted">· decidido el 2026-11-03, se ejecuta en la próxima apertura</span></h3>
+          <p class="lectura">Hay varias sobreventas de corto plazo en valores sanos, sobre todo en tecnología. Sin embargo, casi ninguno llega a RSI14 &lt;30 y algunos tienen caídas de 20 días grandes (DDOG -21%, PANW -17%) que sugieren corrección más estructural. Entro de forma selectiva y diversificada, con tamaños moderados.</p>
+          <ul><li><b>BUY PLTR</b> · 10.0% — <i>Es una empresa en tendencia alcista a largo plazo que ha caído con fuerza en pocos días. Apostamos a que rebote hacia su precio medio de las últimas 4 semanas.</i><br><span class='muted'>Cierre 175.4 sobre SMA200 (153.6), con RSI2 0.64 (sobreventa extrema) y %B -0.06 (bajo la banda inferior de Bollinger). Caída a 20 días de -8.7%, moderada. Objetivo: SMA20 en 195.86.</span></li><li><b>BUY CRM</b> · 10.0% — <i>La acción ha caído varios días seguidos, pero el mes es casi plano. Es un susto puntual y esperamos que recupere su media.</i><br><span class='muted'>Cierre 222.2 sobre SMA200 (197.6), RSI2 1.46 extremo y %B 0.07 pegado a la banda inferior. Caída a 20 días de solo -1.2%, así que es un tirón puntual y no estructural. Objetivo SMA20 en 237.07 (~+6.7%).</span></li><li><b>BUY HPQ</b> · 8.0% — <i>Ha bajado bastante en poco tiempo, pero sigue por encima de su media de largo plazo. Esperamos un rebote parcial.</i><br><span class='muted'>Cierre 28.27 sobre SMA200 (24.27), RSI2 1.4 y %B 0.08. Caída a 20 días de -10.9%, aceptable pero vigilable. Objetivo SMA20 en 31.22 (~+10%).</span></li><li><b>BUY AAPL</b> · 10.0% — <i>Apple ha tenido un par de días malos dentro de una tendencia sana. Es un rebote corto y de bajo riesgo.</i><br><span class='muted'>Cierre 331.9 sobre SMA200 (297.06), RSI2 6.51 (&lt;10) y caída a 20 días de solo -0.5%. Menor volatilidad (ATR 2.2%). Objetivo SMA20 en 342.27 (~+3%).</span></li><li><b>BUY DVN</b> · 8.0% — <i>Una petrolera que ha caído unos días seguidos sin romper su tendencia de fondo. Esperamos una recuperación corta.</i><br><span class='muted'>Cierre 47.62 sobre SMA200 (45.65), RSI2 8.77 (&lt;10) y caída a 20 días de -0.8%, sin deterioro estructural. Objetivo SMA20 en 49.98 (~+5%).</span></li></ul>
+          <p class="muted"><b>Descarta:</b> DDOG (-21% en 20 días, %B -0.03 pero MACD hist -6.8) y PANW (-16.6%) parecen caídas demasiado grandes para tratarlas como susto puntual. KMB, CSX y SLB tienen RSI14 de 49-57 y %B de 0.48-0.65, así que su sobreventa es solo de RSI2 y no hay un exceso real.</p></div>
+<h2>Carteras</h2><h3 style='color:#2a78d6'>El Surfista · liquidez 100,000 €</h3><p class='muted'>Nada todavía.</p><h3 style='color:#e0662f'>El Contrarian · liquidez 100,000 €</h3><p class='muted'>Nada todavía.</p>
+<h2>Operaciones ejecutadas</h2><p class='muted'>Nada todavía.</p>
+</main></body></html>

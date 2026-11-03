@@ -1,0 +1,70 @@
+{
+  "agent": "B",
+  "cash": 100000.0,
+  "positions": {},
+  "pending": [
+    {
+      "id": "B-0001",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "PLTR",
+      "weight": 0.1,
+      "fraction": 1.0,
+      "reason": "Cierre 175.4 sobre SMA200 (153.6), con RSI2 0.64 (sobreventa extrema) y %B -0.06 (bajo la banda inferior de Bollinger). Caída a 20 días de -8.7%, moderada. Objetivo: SMA20 en 195.86.",
+      "plain": "Es una empresa en tendencia alcista a largo plazo que ha caído con fuerza en pocos días. Apostamos a que rebote hacia su precio medio de las últimas 4 semanas.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "B-0002",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "CRM",
+      "weight": 0.1,
+      "fraction": 1.0,
+      "reason": "Cierre 222.2 sobre SMA200 (197.6), RSI2 1.46 extremo y %B 0.07 pegado a la banda inferior. Caída a 20 días de solo -1.2%, así que es un tirón puntual y no estructural. Objetivo SMA20 en 237.07 (~+6.7%).",
+      "plain": "La acción ha caído varios días seguidos, pero el mes es casi plano. Es un susto puntual y esperamos que recupere su media.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "B-0003",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "HPQ",
+      "weight": 0.08,
+      "fraction": 1.0,
+      "reason": "Cierre 28.27 sobre SMA200 (24.27), RSI2 1.4 y %B 0.08. Caída a 20 días de -10.9%, aceptable pero vigilable. Objetivo SMA20 en 31.22 (~+10%).",
+      "plain": "Ha bajado bastante en poco tiempo, pero sigue por encima de su media de largo plazo. Esperamos un rebote parcial.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "B-0004",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "weight": 0.1,
+      "fraction": 1.0,
+      "reason": "Cierre 331.9 sobre SMA200 (297.06), RSI2 6.51 (<10) y caída a 20 días de solo -0.5%. Menor volatilidad (ATR 2.2%). Objetivo SMA20 en 342.27 (~+3%).",
+      "plain": "Apple ha tenido un par de días malos dentro de una tendencia sana. Es un rebote corto y de bajo riesgo.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "B-0005",
+      "created": "2026-11-03",
+      "action": "BUY",
+      "ticker": "DVN",
+      "weight": 0.08,
+      "fraction": 1.0,
+      "reason": "Cierre 47.62 sobre SMA200 (45.65), RSI2 8.77 (<10) y caída a 20 días de -0.8%, sin deterioro estructural. Objetivo SMA20 en 49.98 (~+5%).",
+      "plain": "Una petrolera que ha caído unos días seguidos sin romper su tendencia de fondo. Esperamos una recuperación corta.",
+      "kind": "agente",
+      "age": 0
+    }
+  ],
+  "last_equity": 100000.0,
+  "last_run": "2026-11-03",
+  "next_id": 6
+}

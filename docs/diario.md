@@ -1,0 +1,60 @@
+# Diario del torneo
+
+Cada sesión, para cada agente: **qué se ha ejecutado hoy** (con el motivo que dio al decidirlo),
+**cómo ve el mercado**, **qué hace con lo que ya tiene**, **qué decide para mañana** y **qué
+descarta**. Las órdenes llevan la explicación técnica y otra *en cristiano*.
+¿Un término que no conoces? Mira el [glosario](glosario.md).
+
+Simulación sin dinero real. Nada de esto es una recomendación de inversión.
+
+---
+
+## 2026-11-03
+
+### El Surfista: 100,000 € (+0.00%)
+
+**Cómo ve el mercado:** Hay muchos valores en tendencia alcista fuerte (ADX>30, precio sobre SMA50 y SMA200), pero casi todos vienen de subidas de +15-30% en 20 días con RSI14 alto (65-85). Ninguno marca ruptura de 20 días ni cruce alcista del MACD hoy. Entro con posiciones moderadas en los que combinan tendencia con volatilidad contenida y no están sobreextendidos.
+
+**Decide para mañana**
+- Compra de **BRK-B** (15% de la cartera)
+  - *En cristiano:* Berkshire sube de forma firme y ordenada, con poca oscilación diaria. Es la ola más tranquila, así que podemos poner más dinero.
+  - *Técnico:* Cierre 557.07 sobre SMA50 517.37 y SMA200 496.38; ADX 46.6 indica tendencia muy fuerte y MACD hist +1.43. ATR% de 1.31 es el más bajo de la lista, permite peso alto con poco riesgo.
+- Compra de **MA** (12% de la cartera)
+  - *En cristiano:* Mastercard está en tendencia alcista clara y hoy ha bajado un poco, así que entramos sin perseguir un pico.
+  - *Técnico:* Cierre 647.18 sobre SMA20 614.9, SMA50 588.67 y SMA200 535.38; ADX 37.1 y MACD hist +2.82. RSI14 68.7 sin sobrecompra extrema y retroceso de -1.66% hoy; ATR% 1.93 moderado.
+- Compra de **UNP** (12% de la cartera)
+  - *En cristiano:* Union Pacific sube con fuerza sostenida y sin excesos. Es una entrada más tranquila que las subidas disparadas.
+  - *Técnico:* Cierre 303.43 sobre SMA50 287.21 y SMA200 269.43; ADX 42.9 y MACD hist +1.74. ATR% 1.83 bajo y RSI14 65.9 lejos de sobrecompra; subida de 20d de +9.7%, no sobreextendida.
+- Compra de **MAR** (10% de la cartera)
+  - *En cristiano:* Marriott lleva una tendencia alcista fuerte. Su oscilación es media, así que ponemos una cantidad intermedia.
+  - *Técnico:* Cierre 416.38 muy por encima de SMA50 362.52 y SMA200 356.03; ADX 40.6, MACD hist +1.66. ATR% 2.3 medio, por eso peso reducido.
+- Compra de **AMGN** (10% de la cartera)
+  - *En cristiano:* Amgen sube con fuerza y hoy ha dado un respiro, lo que permite subirse a la ola a mejor precio.
+  - *Técnico:* Cierre 461.26 sobre SMA50 420.83 y SMA200 373.28; ADX 37.0, MACD hist +2.54. RSI14 67 y RSI2 39 indican un pequeño retroceso de corto plazo; ATR% 2.37.
+
+**Lo que descarta:** REGN, VLTO, ROP y LLY están muy extendidos (RSI14 76-85, precio muy por encima de la SMA20), con riesgo de corrección. ACN y CRL tienen ATR% de 4.2-4.4 y MACD débil. Dejo ~41% en liquidez para ir entrando si aparecen rupturas.
+
+### El Contrarian: 100,000 € (+0.00%)
+
+**Cómo ve el mercado:** Hay varias sobreventas de corto plazo en valores sanos, sobre todo en tecnología. Sin embargo, casi ninguno llega a RSI14 <30 y algunos tienen caídas de 20 días grandes (DDOG -21%, PANW -17%) que sugieren corrección más estructural. Entro de forma selectiva y diversificada, con tamaños moderados.
+
+**Decide para mañana**
+- Compra de **PLTR** (10% de la cartera)
+  - *En cristiano:* Es una empresa en tendencia alcista a largo plazo que ha caído con fuerza en pocos días. Apostamos a que rebote hacia su precio medio de las últimas 4 semanas.
+  - *Técnico:* Cierre 175.4 sobre SMA200 (153.6), con RSI2 0.64 (sobreventa extrema) y %B -0.06 (bajo la banda inferior de Bollinger). Caída a 20 días de -8.7%, moderada. Objetivo: SMA20 en 195.86.
+- Compra de **CRM** (10% de la cartera)
+  - *En cristiano:* La acción ha caído varios días seguidos, pero el mes es casi plano. Es un susto puntual y esperamos que recupere su media.
+  - *Técnico:* Cierre 222.2 sobre SMA200 (197.6), RSI2 1.46 extremo y %B 0.07 pegado a la banda inferior. Caída a 20 días de solo -1.2%, así que es un tirón puntual y no estructural. Objetivo SMA20 en 237.07 (~+6.7%).
+- Compra de **HPQ** (8% de la cartera)
+  - *En cristiano:* Ha bajado bastante en poco tiempo, pero sigue por encima de su media de largo plazo. Esperamos un rebote parcial.
+  - *Técnico:* Cierre 28.27 sobre SMA200 (24.27), RSI2 1.4 y %B 0.08. Caída a 20 días de -10.9%, aceptable pero vigilable. Objetivo SMA20 en 31.22 (~+10%).
+- Compra de **AAPL** (10% de la cartera)
+  - *En cristiano:* Apple ha tenido un par de días malos dentro de una tendencia sana. Es un rebote corto y de bajo riesgo.
+  - *Técnico:* Cierre 331.9 sobre SMA200 (297.06), RSI2 6.51 (<10) y caída a 20 días de solo -0.5%. Menor volatilidad (ATR 2.2%). Objetivo SMA20 en 342.27 (~+3%).
+- Compra de **DVN** (8% de la cartera)
+  - *En cristiano:* Una petrolera que ha caído unos días seguidos sin romper su tendencia de fondo. Esperamos una recuperación corta.
+  - *Técnico:* Cierre 47.62 sobre SMA200 (45.65), RSI2 8.77 (<10) y caída a 20 días de -0.8%, sin deterioro estructural. Objetivo SMA20 en 49.98 (~+5%).
+
+**Lo que descarta:** DDOG (-21% en 20 días, %B -0.03 pero MACD hist -6.8) y PANW (-16.6%) parecen caídas demasiado grandes para tratarlas como susto puntual. KMB, CSX y SLB tienen RSI14 de 49-57 y %B de 0.48-0.65, así que su sobreventa es solo de RSI2 y no hay un exceso real.
+
+**S&P 500 (el rival a batir)**: 100,000 € (+0.00%)
