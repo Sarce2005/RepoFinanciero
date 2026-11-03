@@ -1,8 +1,9 @@
 # Torneo de Bolsa: El Surfista vs. El Contrarian
 
 Dos agentes de análisis técnico compiten del 03/11/2026 al 31/12/2026 con 100.000 € simulados
-cada uno, comprando valores de una **lista fija de 250 empresas del S&P 500**: las de más volumen
-negociado en dólares el 02/11/2026 (`torneo/lista_fija.csv`).
+cada uno, comprando valores de una **lista fija de 258 valores** (`torneo/lista_fija.csv`): las 250
+empresas del S&P 500 con más volumen negociado en dólares el 02/11/2026, más 8 añadidas a mano
+el 03/11/2026 (ARM, BABA, CVAC, EH, NOK, QMCO, SPCX, ZM).
 Sin dinero real, sin opciones, sin futuros, sin cortos y con un máximo de 5 operaciones al día.
 
 | Agente | Método | Compra cuando… | Vende cuando… |
@@ -14,7 +15,7 @@ El rival a batir es el S&P 500, medido en euros y comprado el primer día.
 
 ## Cómo funciona una sesión
 
-1. Se descargan los precios de 1 año de los 250 valores de la lista fija (Yahoo Finance).
+1. Se descargan los precios de 1 año de los 258 valores de la lista fija (Yahoo Finance).
 2. Se ejecutan, **a la apertura de hoy**, las órdenes decididas ayer.
 3. Se valoran las carteras al cierre.
 4. El código calcula los indicadores y aplica los stops automáticos.
@@ -72,7 +73,7 @@ día no duplica nada: la sesión ya procesada se salta.
 
 ## Ajustes (`torneo/config.py`)
 
-- `UNIVERSE_MODE`: `"fija"` por defecto (los 250 de `torneo/lista_fija.csv`, generada una vez con
+- `UNIVERSE_MODE`: `"fija"` por defecto (los 258 de `torneo/lista_fija.csv`: top 250 generado con
   `tools/top_volumen.py`). También existen `"usa"` (S&P 500 + Nasdaq-100, ~520 valores),
   `"reducido"` (S&P 100 + Nasdaq-100 + EURO STOXX 50 + IBEX 35, ~230) y `"amplio"` (S&P 500 +
   Nasdaq-100 + Europa, ~580).
