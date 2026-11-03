@@ -94,7 +94,24 @@ def run_day(md: MarketData, state_dir: Path, dry_run: bool = False) -> dict | No
         "date": _d(date), "agent": "BENCH", "equity_eur": round(bench_eq, 2),
         "cash_eur": 0, "n_positions": len(config.BENCHMARK)})
     summary["bench"] = bench_eq
+    _export_positions(ports, md, date, state_dir)
     return summary
+
+
+def _export_positions(ports: dict, md: MarketData, date, state_dir: Path):
+    """Foto de las posiciones al cierre (precio y valor en EUR), para el panel."""
+    rows = []
+    for key, p in ports.items():
+        eq = p.s["last_equity"] or 1
+        for t, pos in p.positions.items():
+            px = md.last_close(t, date) or pos["entry_price"]
+            val = md.to_eur(t, pos["shares"] * px, date)
+            rows.append({"fecha": _d(date), "agente": key, "ticker": t, "acciones": pos["shares"],
+                         "fecha_entrada": pos["entry_date"],
+                         "precio_entrada": round(pos["entry_price"], 2), "cierre": round(px, 2),
+                         "valor_eur": round(val, 2), "peso": round(val / eq, 4),
+                         "rentabilidad": round(px / pos["entry_price"] - 1, 4)})
+    (state_dir / "posiciones_hoy.json").write_text(json.dumps(rows, indent=1))
 
 
 def _decide(p: Portfolio, strat, md: MarketData, date, snaps: pd.DataFrame, eq: float,
