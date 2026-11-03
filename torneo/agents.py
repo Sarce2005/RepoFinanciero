@@ -114,17 +114,29 @@ def decide_llm(strategy: Strategy, context: str) -> tuple[dict, dict]:
     import anthropic
 
     client = anthropic.Anthropic()
-    msg = client.messages.create(
-        model=config.MODEL,
-        max_tokens=config.MAX_TOKENS,
-        system=strategy.prompt + "\n" + RULES,
-        tools=[TOOL],
-        tool_choice={"type": "tool", "name": "enviar_ordenes"},
-        messages=[{"role": "user", "content": context}],
-    )
-    block = next(b for b in msg.content if b.type == "tool_use")
-    usage = {"input_tokens": msg.usage.input_tokens, "output_tokens": msg.usage.output_tokens}
-    return block.input, usage
+    system = (strategy.prompt + "\n" + RULES +
+              "\nResponde SIEMPRE llamando a la herramienta enviar_ordenes, aunque no operes.")
+    messages = [{"role": "user", "content": context}]
+    usage = {"input_tokens": 0, "output_tokens": 0}
+    # Este modelo no admite forzar la herramienta (tool_choice "tool"/"any"): se pide con
+    # tool_choice "auto" y, si no la usa, se insiste una vez.
+    for _ in range(2):
+        msg = client.messages.create(
+            model=config.MODEL,
+            max_tokens=config.MAX_TOKENS,
+            system=system,
+            tools=[TOOL],
+            tool_choice={"type": "auto"},
+            messages=messages,
+        )
+        usage["input_tokens"] += msg.usage.input_tokens
+        usage["output_tokens"] += msg.usage.output_tokens
+        block = next((b for b in msg.content if b.type == "tool_use"), None)
+        if block is not None:
+            return block.input, usage
+        messages += [{"role": "assistant", "content": msg.content},
+                     {"role": "user", "content": "Envía tu decisión llamando a enviar_ordenes."}]
+    raise RuntimeError("el agente no llamó a enviar_ordenes tras dos intentos")
 
 
 def decide_rules(strategy: Strategy, positions_view: list[dict], candidates: pd.DataFrame,

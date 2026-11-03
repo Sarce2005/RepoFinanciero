@@ -136,7 +136,14 @@ def _decide(p: Portfolio, strat, md: MarketData, date, snaps: pd.DataFrame, eq: 
             decision, usage = decide_rules(strat, view, cands, slots)
         else:
             ctx = build_context(strat, date, eq, p.s["cash"], view, cands, stops, slots)
-            decision, usage = decide_llm(strat, ctx)
+            try:
+                decision, usage = decide_llm(strat, ctx)
+            except Exception as exc:  # noqa: BLE001 - un agente caído no tumba la sesión
+                log.error("%s no ha podido decidir: %s", strat.name, exc)
+                decision = {"lectura_mercado": f"(Hoy no ha decidido: fallo técnico al llamar "
+                                               f"al modelo. {type(exc).__name__})",
+                            "ordenes": [], "revision_cartera": [], "descartes": ""}
+                usage = {"error": str(exc)[:300]}
         accepted, rejected = p.validate(decision.get("ordenes", []), slots, set(cands.index),
                                         pending_sells, md, date)
         for a in accepted:
