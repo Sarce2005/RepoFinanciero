@@ -1,0 +1,28 @@
+name: Quitar de la lista los valores sin un año de historia
+
+on:
+  push:
+    paths: ["tools/quitar_sin_historia.py"]
+
+permissions:
+  contents: write
+
+jobs:
+  limpiar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Comprobar y limpiar
+        run: python tools/quitar_sin_historia.py | tee resultado.txt
+      - name: Guardar la lista
+        run: |
+          git config user.name "torneo-bot"
+          git config user.email "torneo-bot@users.noreply.github.com"
+          git add torneo/lista_fija.csv
+          git diff --cached --quiet || git commit -m "Lista fija: quitar valores sin un año de historia" -m "$(cat resultado.txt)"
+          git push
