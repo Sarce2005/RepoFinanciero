@@ -58,3 +58,78 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** DDOG (-21% en 20 días, %B -0.03 pero MACD hist -6.8) y PANW (-16.6%) parecen caídas demasiado grandes para tratarlas como susto puntual. KMB, CSX y SLB tienen RSI14 de 49-57 y %B de 0.48-0.65, así que su sobreventa es solo de RSI2 y no hay un exceso real.
 
 **S&P 500 (el rival a batir)**: 100,000 € (+0.00%)
+
+---
+
+## 2026-11-04
+
+### El Surfista: 100,576 € (+0.58%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **BRK-B**: 29 acciones a 566.3
+  - *Por qué (decidido el 2026-11-03):* Berkshire sube de forma firme y ordenada, con poca oscilación diaria. Es la ola más tranquila, así que podemos poner más dinero.
+- Compra de **MA**: 20 acciones a 660.93
+  - *Por qué (decidido el 2026-11-03):* Mastercard está en tendencia alcista clara y hoy ha bajado un poco, así que entramos sin perseguir un pico.
+- Compra de **UNP**: 43 acciones a 306.4
+  - *Por qué (decidido el 2026-11-03):* Union Pacific sube con fuerza sostenida y sin excesos. Es una entrada más tranquila que las subidas disparadas.
+- Compra de **MAR**: 26 acciones a 423.32
+  - *Por qué (decidido el 2026-11-03):* Marriott lleva una tendencia alcista fuerte. Su oscilación es media, así que ponemos una cantidad intermedia.
+- Compra de **AMGN**: 23 acciones a 479.61
+  - *Por qué (decidido el 2026-11-03):* Amgen sube con fuerza y hoy ha dado un respiro, lo que permite subirse a la ola a mejor precio.
+
+**Cómo ve el mercado:** Mercado con subida muy generalizada hoy (+3-5% en casi todos los candidatos), con RSI14 muy alto y ADX por encima de 38 en casi todo. La tendencia es sólida, pero tras un salto así de fuerte en un día perseguir precio es arriesgado. Mantengo la cartera y sumo solo una posición con buena relación fuerza/volatilidad.
+
+**Lo que ya tiene**
+- **BRK-B** (+2.3% desde el 2026-11-04, pesa un 15%): **MANTENER**. Entrada de hoy. ADX 48.9, precio muy por encima de SMA50 (518.87). RSI 82.7 está sobrecomprado, pero no hay señal de salida y no amplío por el peso (14.9%).
+- **MA** (+1.8% desde el 2026-11-04, pesa un 12%): **MANTENER**. ADX 39, cierre 672.68 sobre SMA20 y SMA50 (590.16), ruptura de 20 días. Sin señales de salida.
+- **UNP** (+0.7% desde el 2026-11-04, pesa un 12%): **MANTENER**. ADX 44, precio sobre SMA50 287.22 y ruptura de 20 días; tendencia intacta, ganancia pequeña.
+- **MAR** (+0.4% desde el 2026-11-04, pesa un 10%): **MANTENER**. ADX 42.1, SMA50 363.87 muy por debajo del precio 424.87; tendencia fuerte y sin señales de salida.
+- **AMGN** (-0.2% desde el 2026-11-04, pesa un 10%): **MANTENER**. Ligeramente en negativo (-0.24%) pero ADX 38.6, MACD hist +3.05 y precio muy sobre SMA50 421.56. La tendencia sigue vigente.
+
+**Decide para mañana**
+- Compra de **SPGI** (8% de la cartera)
+  - *En cristiano:* Es una empresa que sube con fuerza y de forma ordenada, y hoy ha superado su máximo del último mes. Entro con un tamaño medio porque no se mueve de forma demasiado brusca.
+  - *Técnico:* Cierre 481.69 sobre SMA20 440.36, SMA50 423.99 y SMA200 415.29: estructura alcista. ADX 42.8, ruptura de máximo de 20 días y MACD hist +3.96. ATR% 2.32, volatilidad moderada, permite peso medio.
+
+**Lo que descarta:** ROP, VLTO y MRNA los dejo fuera: RSI14 de 83-86 en los dos primeros y volatilidad extrema (ATR 7.7%, +13% en un día) en MRNA. ACN y TYL tienen ATR% alto (4.1% y 3.6%) tras subir más de 27-35% en 20 días. El resto (HLT, AJG, MRSH, PG, EBAY) son válidos, pero prefiero pocas posiciones y no perseguir la subida de hoy.
+
+### El Contrarian: 100,476 € (+0.48%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **PLTR**: 68 acciones a 164.95
+  - *Por qué (decidido el 2026-11-03):* Es una empresa en tendencia alcista a largo plazo que ha caído con fuerza en pocos días. Apostamos a que rebote hacia su precio medio de las últimas 4 semanas.
+- Compra de **CRM**: 49 acciones a 229.0
+  - *Por qué (decidido el 2026-11-03):* La acción ha caído varios días seguidos, pero el mes es casi plano. Es un susto puntual y esperamos que recupere su media.
+- Compra de **HPQ**: 316 acciones a 28.41
+  - *Por qué (decidido el 2026-11-03):* Ha bajado bastante en poco tiempo, pero sigue por encima de su media de largo plazo. Esperamos un rebote parcial.
+- Compra de **AAPL**: 32 acciones a 341.565
+  - *Por qué (decidido el 2026-11-03):* Apple ha tenido un par de días malos dentro de una tendencia sana. Es un rebote corto y de bajo riesgo.
+- Compra de **DVN**: 192 acciones a 46.8
+  - *Por qué (decidido el 2026-11-03):* Una petrolera que ha caído unos días seguidos sin romper su tendencia de fondo. Esperamos una recuperación corta.
+
+**Cómo ve el mercado:** Hoy hay una caída fuerte y generalizada en energía y refino (MPC -8%, OXY/EOG/COP/XOM -4 a -5%) y en tecnología (PLTR, PANW). Muchos valores tienen RSI2 por debajo de 10 pero siguen sobre su SMA200, lo que encaja con mi método. Aun así, hay que evitar concentrarse en un solo factor, el petróleo.
+
+**Lo que ya tiene**
+- **PLTR** (+4.1% desde el 2026-11-04, pesa un 10%): **MANTENER**. RSI2 de 0.36 y %B de -0.04. Sigue sobre la SMA200 (153.6) y el objetivo SMA20 está en 194.7. Ya pesa un 10%, así que no amplío.
+- **CRM** (-0.8% desde el 2026-11-04, pesa un 10%): **MANTENER**. RSI14 de 42.7, con -0.8% de rentabilidad. Está lejos de la SMA20 (237.2), así que queda recorrido de rebote y no hay señal de salida.
+- **HPQ** (+5.3% desde el 2026-11-04, pesa un 8%): **MANTENER**. Ganancia del +5.3%. Cierra a 29.93, todavía bajo la SMA20 (31.1) y con RSI14 de 44.7, así que el rebote no está completo.
+- **AAPL** (+2.3% desde el 2026-11-04, pesa un 10%): **VENDER**. Ha vuelto sobre la SMA20 (349.5 frente a 342.9), por lo que se cumple el objetivo de salida.
+- **DVN** (-5.7% desde el 2026-11-04, pesa un 8%): **VENDER**. Ha perdido la SMA200 y rinde -5.7%. La tesis ya no se sostiene.
+
+**Decide para mañana**
+- Venta de **AAPL** (100% de la posición)
+  - *En cristiano:* Apostamos a un rebote hasta la media de 20 días y ya se ha producido. Cobramos la ganancia y no esperamos más.
+  - *Técnico:* El cierre de 349.51 está sobre la SMA20 (342.91) y el RSI14 es 57.8. El objetivo de reversión se ha cumplido, con una ganancia de +2.3%.
+- Venta de **DVN** (100% de la posición)
+  - *En cristiano:* Compramos porque la empresa estaba sana y solo castigada, pero ha roto su tendencia de largo plazo. Salimos antes de perder más.
+  - *Técnico:* Ha perdido la SMA200 y cierra a 44.12, con RSI14 en 31.8 y una pérdida del -5.7%. Sin el filtro de salud, la tesis de rebote ya no vale, y el stop del -8% está cerca.
+- Compra de **PANW** (8% de la cartera)
+  - *En cristiano:* Una empresa de ciberseguridad en tendencia alcista ha caído unos días seguidos. Apostamos a que rebote hacia su media reciente.
+  - *Técnico:* RSI2 de 3.85 (sobreventa extrema), con el precio 28% sobre la SMA200 (272). El %B es 0.25 y la caída a 20 días de -14% es sensible pero no estructural. El objetivo es la SMA20 en 372.9.
+- Compra de **MPC** (7% de la cartera)
+  - *En cristiano:* La refinera ha caído mucho de golpe, pero su tendencia de fondo sigue siendo muy alcista. Es un castigo exagerado que suele corregirse. Entro con un peso moderado.
+  - *Técnico:* Cae -8.1% en un día, con RSI2 de 4.18, RSI14 de 34.5 y %B de -0.18, bajo la banda inferior. Sigue muy por encima de la SMA200 (293 frente a 392) y la caída a 20 días es de -11%. El objetivo es la SMA20 en 455.
+
+**Lo que descarta:** No compro OXY, PSX, EOG, XOM, COP ni CVX para no concentrar la cartera en petróleo, porque todos caen por el mismo motivo. Además, el RSI14 de EOG, XOM, COP y CVX es de 42 a 45, así que su sobreventa es menos clara. No compro ILMN (RSI2 de 23) ni AME (RSI2 de 23), porque no llegan a sobreventa extrema. LMT, URI y TSLA tienen RSI14 de 51 a 55 y no están castigados.
+
+**S&P 500 (el rival a batir)**: 101,240 € (+1.24%)
