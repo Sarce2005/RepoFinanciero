@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 42202.87744856555,
+  "cash": 34414.92131267229,
   "positions": {
     "BRK-B": {
       "shares": 29,
@@ -36,23 +36,30 @@
       "entry_date": "2026-11-04",
       "cost_eur": 9830.746859996776,
       "ccy": "USD"
+    },
+    "SPGI": {
+      "shares": 18,
+      "entry_price": 485.0,
+      "entry_date": "2026-11-05",
+      "cost_eur": 7787.956135893262,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0006",
-      "created": "2026-11-04",
+      "id": "A-0007",
+      "created": "2026-11-05",
       "action": "BUY",
-      "ticker": "SPGI",
-      "weight": 0.08,
+      "ticker": "TYL",
+      "weight": 0.06,
       "fraction": 1.0,
-      "reason": "Cierre 481.69 sobre SMA20 440.36, SMA50 423.99 y SMA200 415.29: estructura alcista. ADX 42.8, ruptura de máximo de 20 días y MACD hist +3.96. ATR% 2.32, volatilidad moderada, permite peso medio.",
-      "plain": "Es una empresa que sube con fuerza y de forma ordenada, y hoy ha superado su máximo del último mes. Entro con un tamaño medio porque no se mueve de forma demasiado brusca.",
+      "reason": "Ruptura del máximo de 20 días con cierre en 430.37 (+1.69%), precio > SMA20 377 > SMA50 357 > SMA200 336. MACD hist +5.1 y ADX 29.7 (>25). ATR% 3.54, por eso peso moderado del 6%.",
+      "plain": "TYL acaba de superar su máximo de las últimas 4 semanas con una tendencia alcista ordenada. Es una señal de ola nueva; entro con tamaño pequeño porque se mueve bastante.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 100575.98651217748,
-  "last_run": "2026-11-04",
-  "next_id": 7
+  "last_equity": 98997.4406943892,
+  "last_run": "2026-11-05",
+  "next_id": 8
 }

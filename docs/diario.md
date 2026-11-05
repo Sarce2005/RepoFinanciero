@@ -133,3 +133,63 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** No compro OXY, PSX, EOG, XOM, COP ni CVX para no concentrar la cartera en petróleo, porque todos caen por el mismo motivo. Además, el RSI14 de EOG, XOM, COP y CVX es de 42 a 45, así que su sobreventa es menos clara. No compro ILMN (RSI2 de 23) ni AME (RSI2 de 23), porque no llegan a sobreventa extrema. LMT, URI y TSLA tienen RSI14 de 51 a 55 y no están castigados.
 
 **S&P 500 (el rival a batir)**: 101,240 € (+1.24%)
+
+---
+
+## 2026-11-05
+
+### El Surfista: 98,997 € (-1.00%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **SPGI**: 18 acciones a 485.0
+  - *Por qué (decidido el 2026-11-04):* Es una empresa que sube con fuerza y de forma ordenada, y hoy ha superado su máximo del último mes. Entro con un tamaño medio porque no se mueve de forma demasiado brusca.
+
+**Cómo ve el mercado:** Tendencia alcista muy extendida: casi todos los candidatos tienen precio > SMA50 > SMA200 y ADX por encima de 30. Hoy hay un pequeño retroceso en varios valores (MA, SPGI, MAR, LLY -1% a -4%), pero sin rupturas de SMA50 ni MACD negativo. Muchos RSI están altos (>70), así que no conviene perseguir.
+
+**Lo que ya tiene**
+- **BRK-B** (+1.1% desde el 2026-11-04, pesa un 15%): **MANTENER**. ADX 51, cierre 572 muy sobre SMA50 520. RSI 75 está alto pero la tendencia manda; sin señales de salida.
+- **MA** (-0.8% desde el 2026-11-04, pesa un 12%): **MANTENER**. ADX 41, precio 656 sobre SMA20 624 y SMA50 591. El -0.76% es ruido normal; el stop de 2xATR protege.
+- **UNP** (-2.8% desde el 2026-11-04, pesa un 12%): **MANTENER**. ADX 42.8, cierre 298 sobre SMA50 287. Pérdida de -2.8% aún dentro del margen de 2xATR; la tendencia sigue intacta.
+- **MAR** (-1.4% desde el 2026-11-04, pesa un 10%): **MANTENER**. ADX 43.6, cierre 417 sobre SMA50 365 con gran margen. Pequeño retroceso de -1.8% sin romper estructura.
+- **AMGN** (-4.0% desde el 2026-11-04, pesa un 10%): **MANTENER**. ADX 39.5, cierre 460 sobre SMA50 422. Pierde -4% desde la entrada pero no hay cierre bajo la media ni MACD negativo.
+- **SPGI** (-2.6% desde el 2026-11-05, pesa un 8%): **MANTENER**. Entrada reciente, ADX 44, cierre 472 sobre SMA50 425. No hay señal de salida; no se amplía para no concentrar más.
+
+**Decide para mañana**
+- Compra de **TYL** (6% de la cartera)
+  - *En cristiano:* TYL acaba de superar su máximo de las últimas 4 semanas con una tendencia alcista ordenada. Es una señal de ola nueva; entro con tamaño pequeño porque se mueve bastante.
+  - *Técnico:* Ruptura del máximo de 20 días con cierre en 430.37 (+1.69%), precio > SMA20 377 > SMA50 357 > SMA200 336. MACD hist +5.1 y ADX 29.7 (>25). ATR% 3.54, por eso peso moderado del 6%.
+
+**Lo que descarta:** ROP, VLTO y AJG tienen tendencia fuerte pero RSI14 de 72-84 y sin ruptura ni cruce MACD: serían compras tardías. ACN tiene ATR 4% y MACD flojo. MRNA (ATR 8.4%) es demasiado volátil y cae -6.5%. LLY y REGN caen -3 a -4% hoy; espero a ver si el retroceso se estabiliza. KDP y PG tienen MACD muy débil.
+
+### El Contrarian: 98,553 € (-1.45%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **AAPL**: 32 acciones a 353.89 → resultado **+342 €**
+  - *Por qué (decidido el 2026-11-04):* Apostamos a un rebote hasta la media de 20 días y ya se ha producido. Cobramos la ganancia y no esperamos más.
+- Venta de **DVN**: 192 acciones a 44.74 → resultado **-360 €**
+  - *Por qué (decidido el 2026-11-04):* Compramos porque la empresa estaba sana y solo castigada, pero ha roto su tendencia de largo plazo. Salimos antes de perder más.
+- Compra de **PANW**: 26 acciones a 337.55
+  - *Por qué (decidido el 2026-11-04):* Una empresa de ciberseguridad en tendencia alcista ha caído unos días seguidos. Apostamos a que rebote hacia su media reciente.
+- Compra de **MPC**: 20 acciones a 393.16
+  - *Por qué (decidido el 2026-11-04):* La refinera ha caído mucho de golpe, pero su tendencia de fondo sigue siendo muy alcista. Es un castigo exagerado que suele corregirse. Entro con un peso moderado.
+
+**Cómo ve el mercado:** Día de pánico en tecnología/software (PLTR, PANW, CRWD, NTAP, HPE caen ~10% en una sesión) y también en energía. Muchos valores sanos están sobrevendidos, pero ya tengo mucha exposición a software y a refino, así que busco rebotes en sectores distintos.
+
+**Lo que ya tiene**
+- **PLTR** (-6.0% desde el 2026-11-04, pesa un 10%): **MANTENER**. -6% desde la entrada, RSI14 25.4 y RSI2 0.07: sobreventa extrema. Sigue sobre SMA200 (153.6) por poco; el stop de -8% protege. No amplío por la caída de 20 días de -22%.
+- **CRM** (-2.9% desde el 2026-11-04, pesa un 10%): **MANTENER**. -2.9%, RSI14 39.3, lejos de la SMA20 (236.9) y sin señal de salida. Esperamos el rebote.
+- **HPQ** (+3.6% desde el 2026-11-04, pesa un 8%): **MANTENER**. +3.6%, pero el precio (29.44) aún está por debajo de la SMA20 (30.95) y RSI14 42.8, así que queda recorrido hasta el objetivo.
+- **PANW** (-6.8% desde el 2026-11-05, pesa un 7%): **MANTENER**. -6.8% desde la entrada de hoy, RSI14 33 y SMA200 en 272.9 a distancia holgada. El stop automático -8% limita el riesgo; no promedio a la baja.
+- **MPC** (-4.0% desde el 2026-11-05, pesa un 7%): **MANTENER**. -4%, RSI14 31.1, muy por encima de la SMA200 (294). Objetivo SMA20 en 450 aún lejos; sin señal de salida.
+
+**Decide para mañana**
+- Compra de **NUE** (8% de la cartera)
+  - *En cristiano:* Nucor ha caído mucho en un solo día sin venir de una tendencia bajista. Apuesto a que recupere parte del golpe, y además diversifica fuera de tecnología.
+  - *Técnico:* Caída de -8.3% en un día con RSI2 2.6 (sobreventa extrema) y %B 0.06 cerca de la banda inferior, pero la caída a 20 días es solo -0.19%: susto puntual, no estructural. Cotiza 9% sobre su SMA200 (224.9) y el objetivo es la SMA20 en 262.
+- Compra de **URI** (8% de la cartera)
+  - *En cristiano:* United Rentals ha tenido un día muy malo en una tendencia sana. Es el típico susto puntual que suele corregirse en pocos días.
+  - *Técnico:* Caída de -7.1% en un día, RSI2 1.9 (sobreventa extrema), con la caída a 20 días de solo -0.6% y precio 7% sobre la SMA200 (972.9). Objetivo de rebote: SMA20 en 1099.
+
+**Lo que descarta:** PSX descartada por duplicar el riesgo de refino que ya tengo con MPC. CRWD y NTAP aumentarían la concentración en software/tecnología, que ya es la mayor parte de mi cartera, y NTAP cae -26.5% en 20 días (posible deterioro estructural). HPE (-37.8% en 20 días) parece estructural; energía (OXY, XOM, EOG, CVX, COP) no tiene sobreventa lo bastante marcada.
+
+**S&P 500 (el rival a batir)**: 96,929 € (-3.07%)
