@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 34414.92131267229,
+  "cash": 28812.64483210813,
   "positions": {
     "BRK-B": {
       "shares": 29,
@@ -43,23 +43,42 @@
       "entry_date": "2026-11-05",
       "cost_eur": 7787.956135893262,
       "ccy": "USD"
+    },
+    "TYL": {
+      "shares": 15,
+      "entry_price": 415.7699890136719,
+      "entry_date": "2026-11-06",
+      "cost_eur": 5602.276480564161,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0007",
-      "created": "2026-11-05",
-      "action": "BUY",
-      "ticker": "TYL",
-      "weight": 0.06,
+      "id": "A-0008",
+      "created": "2026-11-06",
+      "action": "SELL",
+      "ticker": "UNP",
+      "weight": 0.0,
       "fraction": 1.0,
-      "reason": "Ruptura del máximo de 20 días con cierre en 430.37 (+1.69%), precio > SMA20 377 > SMA50 357 > SMA200 336. MACD hist +5.1 y ADX 29.7 (>25). ATR% 3.54, por eso peso moderado del 6%.",
-      "plain": "TYL acaba de superar su máximo de las últimas 4 semanas con una tendencia alcista ordenada. Es una señal de ola nueva; entro con tamaño pequeño porque se mueve bastante.",
+      "reason": "Trailing stop 2xATR: cierre 290.16 < 295.34 (máximo desde la entrada 308.53)",
+      "plain": "",
+      "kind": "stop",
+      "age": 0
+    },
+    {
+      "id": "A-0009",
+      "created": "2026-11-06",
+      "action": "BUY",
+      "ticker": "HLT",
+      "weight": 0.07,
+      "fraction": 1.0,
+      "reason": "Cierre 370.45 sobre SMA20 352.68, SMA50 329.03 y SMA200 322.48. ADX 40.9 indica tendencia fuerte, MACD hist +1.22 y RSI14 67.8 sin sobrecompra extrema. ATR% 2.42 permite un peso moderado.",
+      "plain": "Hotel con tendencia alcista firme y poco nerviosa. Entro con un peso moderado para diversificar sin sobreexponerme.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 98997.4406943892,
-  "last_run": "2026-11-05",
-  "next_id": 8
+  "last_equity": 99019.27161950352,
+  "last_run": "2026-11-06",
+  "next_id": 10
 }

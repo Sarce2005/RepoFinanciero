@@ -1,6 +1,6 @@
 {
   "agent": "B",
-  "cash": 57140.60994276529,
+  "cash": 41777.43337534492,
   "positions": {
     "PLTR": {
       "shares": 68,
@@ -36,35 +36,49 @@
       "entry_date": "2026-11-05",
       "cost_eur": 7014.691553054162,
       "ccy": "USD"
+    },
+    "NUE": {
+      "shares": 35,
+      "entry_price": 248.69000244140625,
+      "entry_date": "2026-11-06",
+      "cost_eur": 7818.915361142016,
+      "ccy": "USD"
+    },
+    "URI": {
+      "shares": 8,
+      "entry_price": 1049.800048828125,
+      "entry_date": "2026-11-06",
+      "cost_eur": 7544.261206278349,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "B-0010",
-      "created": "2026-11-05",
+      "id": "B-0012",
+      "created": "2026-11-06",
       "action": "BUY",
-      "ticker": "NUE",
-      "weight": 0.08,
+      "ticker": "TRGP",
+      "weight": 0.07,
       "fraction": 1.0,
-      "reason": "Caída de -8.3% en un día con RSI2 2.6 (sobreventa extrema) y %B 0.06 cerca de la banda inferior, pero la caída a 20 días es solo -0.19%: susto puntual, no estructural. Cotiza 9% sobre su SMA200 (224.9) y el objetivo es la SMA20 en 262.",
-      "plain": "Nucor ha caído mucho en un solo día sin venir de una tendencia bajista. Apuesto a que recupere parte del golpe, y además diversifica fuera de tecnología.",
+      "reason": "RSI2 3.9 (sobreventa extrema), %B -0.10 (bajo la banda inferior de Bollinger) y precio 264.59 sobre SMA200 259.83. La caída a 20 días es moderada (-7.3%), lo que apunta a un susto puntual y no a un hundimiento. Objetivo: SMA20 en 293.",
+      "plain": "Es una empresa de oleoductos que ha caído mucho en pocos días sin estar hundida a largo plazo. Apuesto a un rebote hacia su media reciente. Además diversifica frente a mi exceso de tecnología.",
       "kind": "agente",
       "age": 0
     },
     {
-      "id": "B-0011",
-      "created": "2026-11-05",
+      "id": "B-0013",
+      "created": "2026-11-06",
       "action": "BUY",
-      "ticker": "URI",
-      "weight": 0.08,
+      "ticker": "PSX",
+      "weight": 0.05,
       "fraction": 1.0,
-      "reason": "Caída de -7.1% en un día, RSI2 1.9 (sobreventa extrema), con la caída a 20 días de solo -0.6% y precio 7% sobre la SMA200 (972.9). Objetivo de rebote: SMA20 en 1099.",
-      "plain": "United Rentals ha tenido un día muy malo en una tendencia sana. Es el típico susto puntual que suele corregirse en pocos días.",
+      "reason": "RSI2 2.8, %B -0.06 y RSI14 33.4; cotiza 245.72, muy por encima de la SMA200 (200.66). Caída a 20 días de -11.7%, aceptable. Objetivo SMA20 279. Peso reducido porque se correlaciona con MPC, que ya tengo.",
+      "plain": "Refinadora de petróleo que ha caído de más con tendencia de fondo sana. Compro poco porque ya tengo otra refinadora (MPC) y no quiero concentrar el riesgo.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 98553.13303839629,
-  "last_run": "2026-11-05",
-  "next_id": 12
+  "last_equity": 98314.7092016462,
+  "last_run": "2026-11-06",
+  "next_id": 14
 }
