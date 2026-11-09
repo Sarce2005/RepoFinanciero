@@ -252,3 +252,69 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** No compro PANW/CRWD/NTAP/VLO: tecnología y refino ya pesan mucho en la cartera y sus caídas a 20 días (-20% a -29%) parecen más estructurales. OXY apenas está sobre su SMA200 (56.38 vs 56.09), por lo que el filtro de salud es frágil. CVX, LMT, PM, TXN y GD no están en sobreventa real.
 
 **S&P 500 (el rival a batir)**: 97,910 € (-2.09%)
+
+---
+
+## 2026-11-09
+
+### El Surfista: 98,840 € (-1.16%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **UNP**: 43 acciones a 292.6 → resultado **-544 €**
+  - *Por qué (decidido el 2026-11-06):* stop automático. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado.
+- Compra de **HLT**: 20 acciones a 376.03
+  - *Por qué (decidido el 2026-11-06):* Hotel con tendencia alcista firme y poco nerviosa. Entro con un peso moderado para diversificar sin sobreexponerme.
+
+**Cómo ve el mercado:** Tendencia alcista muy extendida: todos los candidatos y mis posiciones están sobre SMA50 y SMA200, con ADX entre 30 y 50. Casi todo está sobrecomprado a corto plazo (RSI14 por encima de 65), así que prefiero sumar poco y buscar entradas en retrocesos suaves o con impulso fuerte. Tengo un 33,7% en liquidez y cabe alguna posición más sin forzar.
+
+**Lo que ya tiene**
+- **BRK-B** (+1.6% desde el 2026-11-04, pesa un 15%): **MANTENER**. ADX 51.1, cierre 575 muy sobre SMA50 (523). RSI 75 sobrecomprado, pero sin señal de salida. Con 15% de peso no amplío.
+- **MA** (-0.8% desde el 2026-11-04, pesa un 12%): **MANTENER**. ADX 41.4, sobre SMA20 630 y SMA50 594. Pérdida de -0.77% es ruido, sin señales de salida.
+- **MAR** (-1.5% desde el 2026-11-04, pesa un 10%): **MANTENER**. ADX 43.8, cierre 417 sobre SMA20 399 y SMA50 368. MACD hist positivo (0.94) aunque flojo; vigilar.
+- **AMGN** (-3.0% desde el 2026-11-04, pesa un 10%): **MANTENER**. -3% desde la entrada, pero cierre 465 sobre SMA20 448 y SMA50 423, ADX 38.4. La tendencia sigue intacta y el trailing stop protege.
+- **SPGI** (-2.9% desde el 2026-11-05, pesa un 8%): **MANTENER**. ADX 45.4, cierre 471 sobre SMA20 450 y SMA50 426, MACD hist +1.46. Sin ruptura de tendencia.
+- **TYL** (+0.6% desde el 2026-11-06, pesa un 6%): **MANTENER**. ADX 30.4 (el más bajo de la cartera, pero >25), MACD hist +3.75 y cierre sobre SMA50 359.
+- **HLT** (-0.7% desde el 2026-11-09, pesa un 7%): **MANTENER**. Entrada de hoy. ADX 41.8, cierre 373 sobre SMA50 330, sin señales de salida.
+
+**Decide para mañana**
+- Compra de **ROP** (6% de la cartera)
+  - *En cristiano:* Es una acción en una subida muy firme que hoy ha bajado un poco. Entrar en ese pequeño bajón sale más barato que perseguirla cuando sube. Pongo un peso moderado porque se mueve bastante.
+  - *Técnico:* Estructura alcista completa (cierre 471.64 > SMA20 433.87 > SMA50 399.53 > SMA200 365.54), ADX 50.2 y MACD hist +3.91. Hoy cae -1.04% (RSI2 19.5), un respiro dentro de la tendencia. ATR 2.96%, peso moderado.
+- Compra de **LLY** (6% de la cartera)
+  - *En cristiano:* La acción sube con fuerza y velocidad creciente, y aún no está tan recalentada como otras. Entro con un peso medio-bajo porque oscila bastante de un día a otro.
+  - *Técnico:* Tendencia alcista sólida: cierre 1411.95 sobre SMA20 1313, SMA50 1219 y SMA200 1100. ADX 38.3 y MACD hist +5.01, el mayor impulso relativo de la lista. RSI14 67.9 no está en zona extrema y el ATR 3.45% pide peso contenido.
+
+**Lo que descarta:** MRNA: ATR 7.9% es demasiado volátil y hoy sube +5.8%, sería perseguir un pico. VLTO, EW y ARES: RSI14 de 85, 80 y 69 tras subidas fuertes, o ADX bajo (EW 27.9, ARES 32 con SMA20 bajo SMA50). REGN, AJG, MRSH y PG: válidos pero menos convicción, y no quiero llenar la cartera de posiciones tibias y correlacionadas.
+
+### El Contrarian: 100,184 € (+0.18%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **TRGP**: 29 acciones a 264.78
+  - *Por qué (decidido el 2026-11-06):* Es una empresa de oleoductos que ha caído mucho en pocos días sin estar hundida a largo plazo. Apuesto a un rebote hacia su media reciente. Además diversifica frente a mi exceso de tecnología.
+- Compra de **PSX**: 22 acciones a 243.89
+  - *Por qué (decidido el 2026-11-06):* Refinadora de petróleo que ha caído de más con tendencia de fondo sana. Compro poco porque ya tengo otra refinadora (MPC) y no quiero concentrar el riesgo.
+
+**Cómo ve el mercado:** Hay sobreventa de corto plazo en energía y en algún valor defensivo. Mi cartera ya está cargada de rebotes recientes: tecnología y energía, con RSI14 entre 35 y 42 y precio muy por debajo de la SMA20. Hoy solo URI cumple el objetivo de salida.
+
+**Lo que ya tiene**
+- **PLTR** (+2.6% desde el 2026-11-04, pesa un 10%): **MANTENER**. RSI14 de 39.4 y precio de 169.2, aún lejos de la SMA20 (188.12). El rebote no ha terminado. Va +2.6%.
+- **CRM** (-6.1% desde el 2026-11-04, pesa un 9%): **MANTENER**. Va -6.1%, cerca del stop de -8%, que lo gestiona el sistema. RSI14 de 35.2 y la SMA20 está en 235.2, así que sigue habiendo recorrido de rebote.
+- **HPQ** (-0.6% desde el 2026-11-04, pesa un 8%): **MANTENER**. Va -0.6%, RSI14 de 38.5 y SMA20 en 30.78 como objetivo. Sin señal de salida.
+- **PANW** (-2.0% desde el 2026-11-05, pesa un 8%): **MANTENER**. Va -2%, RSI14 de 39.9 y objetivo en la SMA20 (359.84). La tesis sigue vigente.
+- **MPC** (-0.8% desde el 2026-11-05, pesa un 7%): **MANTENER**. RSI14 de 37.8, precio de 389.88 y SMA20 de 443.25. Hay mucho recorrido hasta el objetivo.
+- **NUE** (+0.2% desde el 2026-11-06, pesa un 8%): **MANTENER**. Va +0.2%, RSI14 de 42.3 y SMA20 en 261.64. Aún no la alcanza.
+- **URI** (+7.5% desde el 2026-11-06, pesa un 8%): **VENDER**. Ha vuelto sobre la SMA20, el objetivo de salida. Va +7.5%.
+- **TRGP** (+3.3% desde el 2026-11-09, pesa un 7%): **MANTENER**. Entrada de hoy, +3.3%. RSI14 de 41.2 y SMA20 en 292.39, bastante por encima.
+- **PSX** (+3.7% desde el 2026-11-09, pesa un 5%): **MANTENER**. Entrada de hoy, +3.7%. RSI14 de 39.3 y SMA20 en 277.59, aún lejos.
+
+**Decide para mañana**
+- Venta de **URI** (100% de la posición)
+  - *En cristiano:* Compré tras una caída y ya ha rebotado hasta su media de 20 días. Cobro la ganancia del 7.5% y libero espacio.
+  - *Técnico:* El precio (1128.17) ha vuelto por encima de la SMA20 (1102.47) con RSI14 de 54.5. El objetivo de reversión está cumplido con +7.5% de ganancia.
+- Compra de **PM** (8% de la cartera)
+  - *En cristiano:* PM ha caído con fuerza en pocos días, pero sigue en tendencia alcista de largo plazo. Apuesto a que rebota hacia su media. Además diversifica, porque no es tecnología ni energía.
+  - *Técnico:* RSI2 de 4.85 (sobreventa extrema), %B de -0.02 (por debajo de la banda inferior) y precio por encima de la SMA200 (193.12 frente a 180.5). La caída a 20 días es de solo -4.4%, así que no parece estructural. El objetivo es la SMA20, en 202.71.
+
+**Lo que descarta:** No compro CVX (RSI2 de 1.95) ni XOM (RSI2 de 9.44) porque ya tengo MPC, PSX y TRGP, que suman cerca del 19% de la cartera en energía. Añadir más sería apostar dos veces al mismo factor. Además, las tres acciones energéticas están por debajo de su SMA20 y su correlación es alta.
+
+**S&P 500 (el rival a batir)**: 99,481 € (-0.52%)
