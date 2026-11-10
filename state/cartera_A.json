@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 33303.75921127864,
+  "cash": 22350.54850936919,
   "positions": {
     "BRK-B": {
       "shares": 29,
@@ -50,35 +50,37 @@
       "entry_date": "2026-11-09",
       "cost_eur": 6706.803026920479,
       "ccy": "USD"
+    },
+    "ROP": {
+      "shares": 14,
+      "entry_price": 470.0799865722656,
+      "entry_date": "2026-11-10",
+      "cost_eur": 5901.2624800952035,
+      "ccy": "USD"
+    },
+    "LLY": {
+      "shares": 4,
+      "entry_price": 1408.489990234375,
+      "entry_date": "2026-11-10",
+      "cost_eur": 5051.948221814246,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0010",
-      "created": "2026-11-09",
+      "id": "A-0012",
+      "created": "2026-11-10",
       "action": "BUY",
-      "ticker": "ROP",
-      "weight": 0.06,
+      "ticker": "GPN",
+      "weight": 0.05,
       "fraction": 1.0,
-      "reason": "Estructura alcista completa (cierre 471.64 > SMA20 433.87 > SMA50 399.53 > SMA200 365.54), ADX 50.2 y MACD hist +3.91. Hoy cae -1.04% (RSI2 19.5), un respiro dentro de la tendencia. ATR 2.96%, peso moderado.",
-      "plain": "Es una acción en una subida muy firme que hoy ha bajado un poco. Entrar en ese pequeño bajón sale más barato que perseguirla cuando sube. Pongo un peso moderado porque se mueve bastante.",
-      "kind": "agente",
-      "age": 0
-    },
-    {
-      "id": "A-0011",
-      "created": "2026-11-09",
-      "action": "BUY",
-      "ticker": "LLY",
-      "weight": 0.06,
-      "fraction": 1.0,
-      "reason": "Tendencia alcista sólida: cierre 1411.95 sobre SMA20 1313, SMA50 1219 y SMA200 1100. ADX 38.3 y MACD hist +5.01, el mayor impulso relativo de la lista. RSI14 67.9 no está en zona extrema y el ATR 3.45% pide peso contenido.",
-      "plain": "La acción sube con fuerza y velocidad creciente, y aún no está tan recalentada como otras. Entro con un peso medio-bajo porque oscila bastante de un día a otro.",
+      "reason": "Ruptura del máximo de 20 días con cierre 101.59 (+3.91% hoy), por encima de SMA20 89.26, SMA50 86.96 y SMA200 77.41. ADX 29.5 (>25) y MACD hist +1.44. ATR 3.65% alto, así que peso reducido al 5%.",
+      "plain": "GPN acaba de superar su máximo de las últimas 4 semanas con una tendencia ya confirmada: es subirse a la ola cuando arranca. Como se mueve bastante de un día a otro, pongo poco dinero.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 98839.98892363693,
-  "last_run": "2026-11-09",
-  "next_id": 12
+  "last_equity": 100053.48756948381,
+  "last_run": "2026-11-10",
+  "next_id": 13
 }

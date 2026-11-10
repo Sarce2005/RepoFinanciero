@@ -318,3 +318,65 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** No compro CVX (RSI2 de 1.95) ni XOM (RSI2 de 9.44) porque ya tengo MPC, PSX y TRGP, que suman cerca del 19% de la cartera en energía. Añadir más sería apostar dos veces al mismo factor. Además, las tres acciones energéticas están por debajo de su SMA20 y su correlación es alta.
 
 **S&P 500 (el rival a batir)**: 99,481 € (-0.52%)
+
+---
+
+## 2026-11-10
+
+### El Surfista: 100,053 € (+0.05%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **ROP**: 14 acciones a 470.08
+  - *Por qué (decidido el 2026-11-09):* Es una acción en una subida muy firme que hoy ha bajado un poco. Entrar en ese pequeño bajón sale más barato que perseguirla cuando sube. Pongo un peso moderado porque se mueve bastante.
+- Compra de **LLY**: 4 acciones a 1408.49
+  - *Por qué (decidido el 2026-11-09):* La acción sube con fuerza y velocidad creciente, y aún no está tan recalentada como otras. Entro con un peso medio-bajo porque oscila bastante de un día a otro.
+
+**Cómo ve el mercado:** Tendencia alcista muy generalizada: todos los candidatos y mis 9 posiciones cotizan por encima de SMA20, SMA50 y SMA200, con ADX muy altos (30-50). Hay mucho RSI elevado (70-85), señal de mercado extendido, pero ninguna posición ha roto su tendencia. Solo me queda un hueco de posición (máx. 10).
+
+**Lo que ya tiene**
+- **BRK-B** (+3.0% desde el 2026-11-04, pesa un 15%): **MANTENER**. ADX 51.6, cierre 583 muy por encima de SMA50 524. RSI 78 extendido pero sin señal de salida; peso ya 15%, no amplío.
+- **MA** (-0.3% desde el 2026-11-04, pesa un 12%): **MANTENER**. ADX 41.6, sobre SMA20 633 y SMA50 595; -0.3% es ruido, tendencia intacta.
+- **MAR** (+1.2% desde el 2026-11-04, pesa un 10%): **MANTENER**. ADX 44.2, RSI 74, sube +2.7% hoy; tendencia sólida sobre SMA50 369.
+- **AMGN** (-3.0% desde el 2026-11-04, pesa un 10%): **MANTENER**. -3% desde la entrada, pero sigue sobre SMA20 450 y SMA50 424 con ADX 38; el trailing 2xATR vigila el riesgo.
+- **SPGI** (-2.4% desde el 2026-11-05, pesa un 8%): **MANTENER**. -2.4% pero ADX 46, sobre SMA20 453 y SMA50 427; sin ruptura de tendencia.
+- **TYL** (+1.4% desde el 2026-11-06, pesa un 6%): **MANTENER**. ADX 30.6, sobre SMA50 360, MACD positivo; tendencia vigente.
+- **HLT** (+1.0% desde el 2026-11-09, pesa un 7%): **MANTENER**. ADX 42.7, cierre 379.76 sobre SMA20 357; sin señales de salida.
+- **ROP** (+0.9% desde el 2026-11-10, pesa un 6%): **MANTENER**. ADX 49.7, MACD hist +2.42, entrada reciente; la tendencia sigue fuerte.
+- **LLY** (+1.7% desde el 2026-11-10, pesa un 5%): **MANTENER**. ADX 38.2, MACD hist +5.56 (impulso fuerte), sobre SMA50 1224.
+
+**Decide para mañana**
+- Compra de **GPN** (5% de la cartera)
+  - *En cristiano:* GPN acaba de superar su máximo de las últimas 4 semanas con una tendencia ya confirmada: es subirse a la ola cuando arranca. Como se mueve bastante de un día a otro, pongo poco dinero.
+  - *Técnico:* Ruptura del máximo de 20 días con cierre 101.59 (+3.91% hoy), por encima de SMA20 89.26, SMA50 86.96 y SMA200 77.41. ADX 29.5 (>25) y MACD hist +1.44. ATR 3.65% alto, así que peso reducido al 5%.
+
+**Lo que descarta:** VLTO (RSI 85, muy estirado y sin ruptura reciente), MRNA (-6.75% hoy, ATR 8.5% demasiado volátil), REGN/AJG/MRSH/ARES/PG/KDP (tendencia ok pero sin ruptura ni cruce MACD, ADX más flojo) y repetir en valores ya en cartera. Con solo un hueco, prefiero el único con ruptura de 20 días.
+
+### El Contrarian: 100,697 € (+0.70%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **URI**: 8 acciones a 1125.11 → resultado **+511 €**
+  - *Por qué (decidido el 2026-11-09):* Compré tras una caída y ya ha rebotado hasta su media de 20 días. Cobro la ganancia del 7.5% y libero espacio.
+- Compra de **PM**: 45 acciones a 195.83
+  - *Por qué (decidido el 2026-11-09):* PM ha caído con fuerza en pocos días, pero sigue en tendencia alcista de largo plazo. Apuesto a que rebota hacia su media. Además diversifica, porque no es tecnología ni energía.
+
+**Cómo ve el mercado:** Mercado con sobreventa generalizada: casi toda mi cartera está por debajo de su SMA 20 con RSI14 entre 34 y 48, pero ninguna posición ha rebotado aún hasta la media. Solo XOM supera el cribado hoy, con RSI2 muy bajo y por encima de la SMA 200.
+
+**Lo que ya tiene**
+- **PLTR** (+2.4% desde el 2026-11-04, pesa un 10%): **MANTENER**. +2.35%, RSI14 39.2; precio 168.8 lejos de la SMA20 (186.1), el rebote aún no se ha producido.
+- **CRM** (-6.8% desde el 2026-11-04, pesa un 9%): **MANTENER**. -6.78%, cerca del stop de -8% que ejecuta el sistema. RSI14 34.3, objetivo SMA20 233.98; no añado para no promediar a la baja.
+- **HPQ** (+0.0% desde el 2026-11-04, pesa un 8%): **MANTENER**. Plano (+0.04%), RSI14 39.5, SMA20 en 30.67 muy por encima del precio 28.42.
+- **PANW** (-3.3% desde el 2026-11-05, pesa un 8%): **MANTENER**. -3.32%, RSI14 38.7; sin señal de salida, objetivo SMA20 356.
+- **MPC** (-0.9% desde el 2026-11-05, pesa un 7%): **MANTENER**. -0.92%, RSI14 37.7; SMA20 438.9 muy por encima, recorrido de rebote pendiente.
+- **NUE** (+3.1% desde el 2026-11-06, pesa un 8%): **MANTENER**. +3.13%, RSI14 48.4; falta un 2% hasta la SMA20 (261.78).
+- **TRGP** (+6.2% desde el 2026-11-09, pesa un 7%): **MANTENER**. +6.25%, RSI14 46; precio 281.3 aún bajo la SMA20 (291.9), no hay señal de salida.
+- **PSX** (+2.8% desde el 2026-11-09, pesa un 5%): **MANTENER**. +2.79%, RSI14 38.1; SMA20 275.5, queda mucho recorrido.
+- **PM** (-0.8% desde el 2026-11-10, pesa un 8%): **MANTENER**. Entrada de ayer, -0.81%, RSI14 42.7; objetivo SMA20 202.45.
+
+**Decide para mañana**
+- Compra de **XOM** (5% de la cartera)
+  - *En cristiano:* XOM ha caído varios días seguidos pero sigue en tendencia alcista de largo plazo. Apuesto a un rebote hacia su media de 20 días, con tamaño pequeño porque ya tengo bastante energía en cartera.
+  - *Técnico:* RSI2 8.33 (<10, sobreventa extrema a corto plazo), RSI14 37.9 y %B 0.07 cerca de la banda inferior de Bollinger. Cierre 164.47 por encima de la SMA200 (154.78) y caída de 20 días de solo -5.5%, no estructural; objetivo SMA20 en 176.5 (+7%).
+
+**Lo que descarta:** No hay otros candidatos en el cribado. Con XOM mantengo un tamaño moderado (5%) porque MPC, PSX y TRGP ya suman ~19% en energía y quiero evitar concentración sectorial.
+
+**S&P 500 (el rival a batir)**: 99,644 € (-0.36%)
