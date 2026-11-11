@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 22350.54850936919,
+  "cash": 17353.590458204715,
   "positions": {
     "BRK-B": {
       "shares": 29,
@@ -64,23 +64,17 @@
       "entry_date": "2026-11-10",
       "cost_eur": 5051.948221814246,
       "ccy": "USD"
+    },
+    "GPN": {
+      "shares": 55,
+      "entry_price": 100.68000030517578,
+      "entry_date": "2026-11-11",
+      "cost_eur": 4996.958051164476,
+      "ccy": "USD"
     }
   },
-  "pending": [
-    {
-      "id": "A-0012",
-      "created": "2026-11-10",
-      "action": "BUY",
-      "ticker": "GPN",
-      "weight": 0.05,
-      "fraction": 1.0,
-      "reason": "Ruptura del máximo de 20 días con cierre 101.59 (+3.91% hoy), por encima de SMA20 89.26, SMA50 86.96 y SMA200 77.41. ADX 29.5 (>25) y MACD hist +1.44. ATR 3.65% alto, así que peso reducido al 5%.",
-      "plain": "GPN acaba de superar su máximo de las últimas 4 semanas con una tendencia ya confirmada: es subirse a la ola cuando arranca. Como se mueve bastante de un día a otro, pongo poco dinero.",
-      "kind": "agente",
-      "age": 0
-    }
-  ],
-  "last_equity": 100053.48756948381,
-  "last_run": "2026-11-10",
+  "pending": [],
+  "last_equity": 100851.74505381811,
+  "last_run": "2026-11-11",
   "next_id": 13
 }

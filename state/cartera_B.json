@@ -1,6 +1,6 @@
 {
   "agent": "B",
-  "cash": 30297.661760082432,
+  "cash": 25379.91654543341,
   "positions": {
     "PLTR": {
       "shares": 68,
@@ -64,23 +64,17 @@
       "entry_date": "2026-11-10",
       "cost_eur": 7901.997287422034,
       "ccy": "USD"
+    },
+    "XOM": {
+      "shares": 33,
+      "entry_price": 165.13999938964844,
+      "entry_date": "2026-11-11",
+      "cost_eur": 4917.745214649022,
+      "ccy": "USD"
     }
   },
-  "pending": [
-    {
-      "id": "B-0016",
-      "created": "2026-11-10",
-      "action": "BUY",
-      "ticker": "XOM",
-      "weight": 0.05,
-      "fraction": 1.0,
-      "reason": "RSI2 8.33 (<10, sobreventa extrema a corto plazo), RSI14 37.9 y %B 0.07 cerca de la banda inferior de Bollinger. Cierre 164.47 por encima de la SMA200 (154.78) y caída de 20 días de solo -5.5%, no estructural; objetivo SMA20 en 176.5 (+7%).",
-      "plain": "XOM ha caído varios días seguidos pero sigue en tendencia alcista de largo plazo. Apuesto a un rebote hacia su media de 20 días, con tamaño pequeño porque ya tengo bastante energía en cartera.",
-      "kind": "agente",
-      "age": 0
-    }
-  ],
-  "last_equity": 100697.45476625816,
-  "last_run": "2026-11-10",
+  "pending": [],
+  "last_equity": 102862.47061630606,
+  "last_run": "2026-11-11",
   "next_id": 17
 }
