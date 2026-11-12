@@ -73,8 +73,21 @@
       "ccy": "USD"
     }
   },
-  "pending": [],
-  "last_equity": 102862.47061630606,
-  "last_run": "2026-11-11",
-  "next_id": 17
+  "pending": [
+    {
+      "id": "B-0017",
+      "created": "2026-11-12",
+      "action": "SELL",
+      "ticker": "TRGP",
+      "weight": 0,
+      "fraction": 1.0,
+      "reason": "Cierre 296.30 por encima de la SMA20 (292.71) con RSI14 54.1: objetivo de reversión cumplido con +11.9% desde la entrada en 264.78. Se recoge el beneficio según el método.",
+      "plain": "La acción ya rebotó hasta su precio medio de las últimas 4 semanas y llevamos casi un 12% de ganancia. Es el momento de vender y no encariñarse.",
+      "kind": "agente",
+      "age": 0
+    }
+  ],
+  "last_equity": 103208.97709896628,
+  "last_run": "2026-11-12",
+  "next_id": 18
 }

@@ -434,3 +434,54 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** No hay candidatos en el cribado hoy y la cartera está llena (10/10), así que no compro nada. Operar sin señal solo generaría comisiones.
 
 **S&P 500 (el rival a batir)**: 101,591 € (+1.59%)
+
+---
+
+## 2026-11-12
+
+### El Surfista: 100,045 € (+0.04%)
+
+**Cómo ve el mercado:** La tendencia sigue fuerte: todos los candidatos están por encima de SMA50 y SMA200 con ADX alto. Pero el RSI está alto en muchos y varias de mis posiciones tienen el MACD flojo. Hoy toca ser selectivo, sin perseguir precios.
+
+**Lo que ya tiene**
+- **BRK-B** (+4.2% desde el 2026-11-04, pesa un 16%): **MANTENER**. Ruptura de máximo de 20d, ADX 53, MACD hist +2.96. RSI 80 está alto, pero en tendencia no es motivo de venta; el trailing protege.
+- **MA** (-1.3% desde el 2026-11-04, pesa un 12%): **MANTENER**. Histograma MACD negativo, pero el cierre 652.6 está muy por encima de SMA50 (598) y ADX 41. Aún no hay ruptura de tendencia; vigilo.
+- **MAR** (+0.3% desde el 2026-11-04, pesa un 10%): **MANTENER**. ADX 45, precio sobre SMA20 y SMA50, MACD positivo; sin señales de salida.
+- **AMGN** (-2.6% desde el 2026-11-04, pesa un 10%): **MANTENER**. MACD hist negativo pero precio 467 sobre SMA50 (425) y ADX 38. Una señal sola no basta; si cierra bajo SMA20 (454) lo reviso.
+- **SPGI** (-3.4% desde el 2026-11-05, pesa un 8%): **MANTENER**. MACD hist negativo, pero ADX 47 y precio 468 sobre SMA50 (428). Entrada reciente, -3.4%; el trailing 2xATR cubre el riesgo.
+- **TYL** (+1.9% desde el 2026-11-06, pesa un 6%): **MANTENER**. Tendencia intacta: ADX 31, MACD positivo, +1.9%.
+- **HLT** (-0.9% desde el 2026-11-09, pesa un 7%): **MANTENER**. ADX 44, sobre SMA50 (334), MACD positivo; ligero retroceso normal.
+- **ROP** (+1.7% desde el 2026-11-10, pesa un 6%): **MANTENER**. ADX 49, +25% en 20d, sin señales de salida.
+- **LLY** (+1.3% desde el 2026-11-10, pesa un 5%): **MANTENER**. ADX 38, MACD hist +4.0, estructura alcista clara.
+- **GPN**: **STOP automático**, se vende mañana. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado. (Trailing stop 2xATR: cierre 88.19 < 91.59 (máximo desde la entrada 100.23))
+
+**Decide para mañana:** no operar. No ve una señal clara.
+
+**Lo que descarta:** REGN, EW y TYL/ROP/MAR/HLT/LLY (ya en cartera) no se amplían para no concentrar ni perseguir. EW tiene RSI2 88 y ya estiró, REGN tiene ATR% 3.5, ARES cayó -3.3% hoy. PG, CL, ECL y MMM tienen tendencia menos convincente.
+
+- 🚫 El árbitro rechaza Compra de VLTO: ya hay 10 posiciones
+
+### El Contrarian: 103,209 € (+3.21%)
+
+**Cómo ve el mercado:** Mercado con muchos de mis rebotes aún a medio camino: casi todas las posiciones siguen por debajo de su SMA20 y los candidatos de hoy tienen sobreventa muy leve (RSI14 entre 45 y 52). Cartera llena (10 de 10), así que solo rotaría si hay una señal clara, y hoy no la hay.
+
+**Lo que ya tiene**
+- **PLTR** (+4.0% desde el 2026-11-04, pesa un 10%): **MANTENER**. RSI14 41.9, precio 171.58 muy por debajo de la SMA20 (183.26): aún hay recorrido de rebote; +4%.
+- **CRM** (-5.0% desde el 2026-11-04, pesa un 9%): **MANTENER**. -5.0%, aún por encima del stop de -8%. RSI14 39.2 y SMA20 en 231.62 lejos; la tesis sigue vigente.
+- **HPQ** (+1.6% desde el 2026-11-04, pesa un 8%): **MANTENER**. +1.65%, RSI14 42.3, SMA20 en 30.50 aún un 5% por encima del precio.
+- **PANW** (-4.4% desde el 2026-11-05, pesa un 7%): **MANTENER**. -4.4%, RSI14 38.7; el objetivo SMA20 (351.89) está lejos y el stop de -8% protege.
+- **MPC** (+5.0% desde el 2026-11-05, pesa un 7%): **MANTENER**. +5%, RSI14 47.2, SMA20 431.57 todavía por encima del precio.
+- **NUE** (+4.8% desde el 2026-11-06, pesa un 8%): **MANTENER**. +4.85%, precio 260.75 casi en la SMA20 (262.30); vigilar cruce para vender mañana.
+- **TRGP** (+11.9% desde el 2026-11-09, pesa un 8%): **MANTENER**. sin comentario
+- **PSX** (+7.8% desde el 2026-11-09, pesa un 5%): **MANTENER**. +7.8%, RSI14 47.2, SMA20 272.24 por encima del precio: recorrido pendiente.
+- **PM** (+0.4% desde el 2026-11-10, pesa un 8%): **MANTENER**. +0.4%, RSI14 46.2, SMA20 201.83 por encima del cierre 196.66.
+- **XOM** (+2.8% desde el 2026-11-11, pesa un 5%): **MANTENER**. +2.8%, RSI14 47.0, SMA20 175.75 aún un 3.5% arriba.
+
+**Decide para mañana**
+- Venta de **TRGP** (100% de la posición)
+  - *En cristiano:* La acción ya rebotó hasta su precio medio de las últimas 4 semanas y llevamos casi un 12% de ganancia. Es el momento de vender y no encariñarse.
+  - *Técnico:* Cierre 296.30 por encima de la SMA20 (292.71) con RSI14 54.1: objetivo de reversión cumplido con +11.9% desde la entrada en 264.78. Se recoge el beneficio según el método.
+
+**Lo que descarta:** ABT: RSI2 6 pero RSI14 51.7 y %B 0.53, ya está sobre su SMA20: no hay caída real que revertir. GPN: -12% en un día suele ser un shock de noticias (no un exceso técnico) y su RSI14 es 46.5, no hay sobreventa profunda. NEM: casi pegada a su SMA200 (112.64 vs 111.91), filtro de salud muy frágil y RSI14 45.7.
+
+**S&P 500 (el rival a batir)**: 101,557 € (+1.56%)
