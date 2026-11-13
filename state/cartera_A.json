@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 17353.590458204715,
+  "cash": 21758.541509632698,
   "positions": {
     "BRK-B": {
       "shares": 29,
@@ -64,30 +64,23 @@
       "entry_date": "2026-11-10",
       "cost_eur": 5051.948221814246,
       "ccy": "USD"
-    },
-    "GPN": {
-      "shares": 55,
-      "entry_price": 100.68000030517578,
-      "entry_date": "2026-11-11",
-      "cost_eur": 4996.958051164476,
-      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0013",
-      "created": "2026-11-12",
-      "action": "SELL",
-      "ticker": "GPN",
-      "weight": 0.0,
+      "id": "A-0014",
+      "created": "2026-11-13",
+      "action": "BUY",
+      "ticker": "EW",
+      "weight": 0.06,
       "fraction": 1.0,
-      "reason": "Trailing stop 2xATR: cierre 88.19 < 91.59 (máximo desde la entrada 100.23)",
-      "plain": "",
-      "kind": "stop",
+      "reason": "Ruptura del máximo de 20 días con cierre 107.15, por encima de SMA20 96.05, SMA50 90.42 y SMA200 86.33. ADX 35.7 (>25) y MACD hist +1.23. ATR 2.67% es moderado, así que uso un peso del 6%.",
+      "plain": "EW acaba de superar su precio más alto de las últimas 4 semanas y tiene una tendencia alcista firme. Entro con una posición pequeña porque se mueve bastante de un día a otro.",
+      "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 100044.67827416382,
-  "last_run": "2026-11-12",
-  "next_id": 14
+  "last_equity": 100625.29360072642,
+  "last_run": "2026-11-13",
+  "next_id": 15
 }

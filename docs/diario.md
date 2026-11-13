@@ -485,3 +485,58 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** ABT: RSI2 6 pero RSI14 51.7 y %B 0.53, ya está sobre su SMA20: no hay caída real que revertir. GPN: -12% en un día suele ser un shock de noticias (no un exceso técnico) y su RSI14 es 46.5, no hay sobreventa profunda. NEM: casi pegada a su SMA200 (112.64 vs 111.91), filtro de salud muy frágil y RSI14 45.7.
 
 **S&P 500 (el rival a batir)**: 101,557 € (+1.56%)
+
+---
+
+## 2026-11-13
+
+### El Surfista: 100,625 € (+0.63%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **GPN**: 55 acciones a 88.41 → resultado **-592 €**
+  - *Por qué (decidido el 2026-11-12):* stop automático. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado.
+
+**Cómo ve el mercado:** La tendencia general sigue fuerte: todas mis posiciones cotizan muy por encima de la SMA50 y con ADX entre 32 y 54. Cinco tienen el histograma MACD en negativo, pero es un respiro leve dentro de la subida y no una ruptura. Solo EW muestra hoy una ruptura limpia del máximo de 20 días con MACD positivo.
+
+**Lo que ya tiene**
+- **BRK-B** (+4.7% desde el 2026-11-04, pesa un 16%): **MANTENER**. ADX 53.8 y cierre muy por encima de SMA50 (529.66). El RSI de 80.9 indica sobrecompra, pero en tendencia fuerte eso no es señal de venta. El trailing stop protege la ganancia de +4.7%.
+- **MA** (+0.0% desde el 2026-11-04, pesa un 12%): **MANTENER**. El histograma MACD es negativo, pero el precio (661) está sobre la SMA20 (640) y la SMA50 (600), con ADX 41.3. Es una pausa y no hay ruptura. Vendería con un cierre bajo la SMA50.
+- **MAR** (-0.0% desde el 2026-11-04, pesa un 10%): **MANTENER**. Sin señales de salida, ADX 45.2 y precio sobre SMA20 y SMA50. La posición está en tablas (-0.04%).
+- **AMGN** (-2.9% desde el 2026-11-04, pesa un 10%): **MANTENER**. Pierde un 2.9% y el MACD es negativo, pero sigue sobre SMA20 (455.86) con ADX 37.3. Mi regla de salida (cierre bajo SMA50 de 425) no se ha activado. Si pierde la SMA20 la reviso.
+- **SPGI** (-2.4% desde el 2026-11-05, pesa un 8%): **MANTENER**. El MACD es negativo, pero el ADX es 47.1 y el cierre (473.59) está bien sobre SMA20 y SMA50. Es un retroceso normal. El stop de 2xATR queda como límite.
+- **TYL** (+2.0% desde el 2026-11-06, pesa un 6%): **MANTENER**. Sin señales de salida. ADX 32 y precio sobre las medias. Va con +2%.
+- **HLT** (-0.8% desde el 2026-11-09, pesa un 7%): **MANTENER**. El MACD es negativo, pero el precio (373) está sobre SMA20 (363) y SMA50 (335), con ADX 44.1. La tendencia está intacta.
+- **ROP** (+2.1% desde el 2026-11-10, pesa un 6%): **MANTENER**. El MACD es negativo tras un RSI de 71, lo que parece una pausa. ADX 49 y cierre sobre SMA20 (454). Va con +2.1%.
+- **LLY** (+2.5% desde el 2026-11-10, pesa un 5%): **MANTENER**. Sin señales de salida, ADX 38.3 y MACD hist +3.45. Va con +2.5%. No amplío porque ya pesa un 5% y cuesta comisión.
+
+**Decide para mañana**
+- Compra de **EW** (6% de la cartera)
+  - *En cristiano:* EW acaba de superar su precio más alto de las últimas 4 semanas y tiene una tendencia alcista firme. Entro con una posición pequeña porque se mueve bastante de un día a otro.
+  - *Técnico:* Ruptura del máximo de 20 días con cierre 107.15, por encima de SMA20 96.05, SMA50 90.42 y SMA200 86.33. ADX 35.7 (>25) y MACD hist +1.23. ATR 2.67% es moderado, así que uso un peso del 6%.
+
+**Lo que descarta:** No compro VLTO, CAH ni REGN: tienen RSI14 cercano o superior a 80 en algunos casos, o ya han subido mucho (+17 a +21% en 20 días), sin ruptura ni cruce MACD nuevo. Además, mi cartera llega al límite de 10 posiciones con EW. KO, PG y CL son defensivos con ADX bajo-medio y MACD casi plano.
+
+### El Contrarian: 103,328 € (+3.33%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **TRGP**: 29 acciones a 300.01 → resultado **+1,034 €**
+  - *Por qué (decidido el 2026-11-12):* La acción ya rebotó hasta su precio medio de las últimas 4 semanas y llevamos casi un 12% de ganancia. Es el momento de vender y no encariñarse.
+
+**Cómo ve el mercado:** Los candidatos de hoy tienen RSI2 bajo, pero el RSI14 está en 50-57 y %B entre 0.41 y 0.63. Eso es un tirón corto dentro de un rango normal, no la sobreventa extrema que busco. Mi cartera tiene bastantes valores bajo su SMA20 (tecnología, PANW, CRM) y aún no hay rebote.
+
+**Lo que ya tiene**
+- **PLTR** (+1.8% desde el 2026-11-04, pesa un 10%): **MANTENER**. RSI14 39.5, precio 167.99 frente a SMA20 182.36. Hay recorrido hasta la media y está +1.8%, lejos del stop de -8%.
+- **CRM** (-4.9% desde el 2026-11-04, pesa un 9%): **MANTENER**. -4.9%, RSI14 39.5, SMA20 230.48. El stop de -8% queda a unos 3 puntos. Mantengo la tesis del rebote y no promedio a la baja.
+- **HPQ** (+3.3% desde el 2026-11-04, pesa un 8%): **MANTENER**. +3.3%, RSI14 45.3 y SMA20 en 30.46, por encima del precio de 29.36. Aún no llega al objetivo.
+- **PANW** (-4.5% desde el 2026-11-05, pesa un 7%): **MANTENER**. -4.5%, RSI14 38.6, SMA20 350.91 queda lejos. El stop automático protege la posición.
+- **MPC** (+5.5% desde el 2026-11-05, pesa un 7%): **MANTENER**. +5.5%, RSI14 47.9, precio 414.65 bajo SMA20 428.4. Falta el objetivo.
+- **NUE** (+1.2% desde el 2026-11-06, pesa un 8%): **MANTENER**. +1.2%, RSI14 44.8, SMA20 262.07 por encima del precio. Sin señal de salida.
+- **PSX** (+8.6% desde el 2026-11-09, pesa un 5%): **MANTENER**. +8.6%, RSI14 48.6, SMA20 270.83 aún por encima del precio de 264.9. Sigo hasta la media.
+- **PM** (+1.6% desde el 2026-11-10, pesa un 8%): **MANTENER**. +1.6%, RSI14 49.5, SMA20 201.52 apenas por encima de 198.96. Cerca del objetivo.
+- **XOM** (+3.3% desde el 2026-11-11, pesa un 5%): **MANTENER**. +3.3%, RSI14 48.2, SMA20 175.33 por encima del precio. Sin señal de salida.
+
+**Decide para mañana:** no operar. No ve una señal clara.
+
+**Lo que descarta:** MRNA: ATR 8.9% (muy volátil), RSI14 49.7 y %B 0.41, no hay sobreventa real. VRTX, UAL y MMM: RSI2 bajo pero RSI14 de 50-57 y %B > 0.5, el precio no está estirado a la baja. UAL además está pegada a su SMA200 (109.31 frente a 108.29). Ya tengo 9 de 10 posiciones y no hay señal clara, así que no opero.
+
+**S&P 500 (el rival a batir)**: 101,414 € (+1.41%)
