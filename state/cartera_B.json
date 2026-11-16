@@ -66,8 +66,21 @@
       "ccy": "USD"
     }
   },
-  "pending": [],
-  "last_equity": 103327.6173092206,
-  "last_run": "2026-11-13",
-  "next_id": 18
+  "pending": [
+    {
+      "id": "B-0018",
+      "created": "2026-11-16",
+      "action": "BUY",
+      "ticker": "EMR",
+      "weight": 0.08,
+      "fraction": 1.0,
+      "reason": "RSI2 4.3 (<10, sobreventa extrema a corto plazo), %B 0.20 cerca de la banda inferior y caída de 1 día de -3.4%. Cotiza 9% sobre su SMA200 (146.92) y a 20 días está plano (+0.4%), así que es un tropiezo puntual, no estructural. Objetivo: SMA20 en 164.6 (~+2.5%).",
+      "plain": "Emerson ha caído fuerte en un solo día sin que su tendencia de fondo se rompa. Apuesto a que recupere su precio medio de las últimas 4 semanas, unos 164.6.",
+      "kind": "agente",
+      "age": 0
+    }
+  ],
+  "last_equity": 102001.45175471091,
+  "last_run": "2026-11-16",
+  "next_id": 19
 }

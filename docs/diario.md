@@ -540,3 +540,61 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** MRNA: ATR 8.9% (muy volátil), RSI14 49.7 y %B 0.41, no hay sobreventa real. VRTX, UAL y MMM: RSI2 bajo pero RSI14 de 50-57 y %B > 0.5, el precio no está estirado a la baja. UAL además está pegada a su SMA200 (109.31 frente a 108.29). Ya tengo 9 de 10 posiciones y no hay señal clara, así que no opero.
 
 **S&P 500 (el rival a batir)**: 101,414 € (+1.41%)
+
+---
+
+## 2026-11-16
+
+### El Surfista: 100,834 € (+0.83%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **EW**: 62 acciones a 107.0
+  - *Por qué (decidido el 2026-11-13):* EW acaba de superar su precio más alto de las últimas 4 semanas y tiene una tendencia alcista firme. Entro con una posición pequeña porque se mueve bastante de un día a otro.
+
+**Cómo ve el mercado:** La tendencia general sigue alcista: las 10 posiciones están por encima de SMA20 y SMA50, con ADX entre 33 y 54. Pero seis tienen el histograma MACD en negativo, es decir, el impulso se enfría tras la subida reciente. Todavía no hay ruptura de estructura, así que solo rotación puntual.
+
+**Lo que ya tiene**
+- **BRK-B** (+4.7% desde el 2026-11-04, pesa un 16%): **MANTENER**. ADX 54.3, MACD hist +2.45, cierre muy sobre SMA50 (531). RSI 80.8 alto pero sin señal de salida; el trailing protege.
+- **MA** (+0.1% desde el 2026-11-04, pesa un 12%): **MANTENER**. MACD hist negativo pero ADX 41.5 y precio sobre SMA20 642 y SMA50 601; esperamos confirmación antes de vender.
+- **MAR** (+0.6% desde el 2026-11-04, pesa un 10%): **MANTENER**. ADX 45.4, precio 425.7 sobre SMA20 410; el MACD negativo aislado no basta.
+- **AMGN** (-3.6% desde el 2026-11-04, pesa un 10%): **VENDER**. -3.6%, MACD negativo, la más débil; se rota a VLTO.
+- **SPGI** (-2.8% desde el 2026-11-05, pesa un 8%): **MANTENER**. -2.8% y MACD negativo, pero ADX 47.4 y sobre SMA20 462.9; vigilar, si cierra bajo SMA20 saldría.
+- **TYL** (+2.5% desde el 2026-11-06, pesa un 6%): **MANTENER**. Sin señales de salida, +2.5%, ADX 32.6 y sobre SMA50 364.
+- **HLT** (-0.6% desde el 2026-11-09, pesa un 7%): **MANTENER**. MACD negativo pero ADX 44.4 y precio 373.8 sobre SMA20 364; tendencia intacta.
+- **ROP** (+2.9% desde el 2026-11-10, pesa un 6%): **MANTENER**. +2.9%, ADX 49, muy por encima de SMA50 405; MACD negativo se vigila.
+- **LLY** (+1.6% desde el 2026-11-10, pesa un 5%): **MANTENER**. Sin señales de salida, ADX 38.7, MACD hist +1.84.
+- **EW** (+0.1% desde el 2026-11-16, pesa un 6%): **MANTENER**. Entrada hoy, ADX 37.6, MACD positivo; no se toca.
+
+**Decide para mañana**
+- Venta de **AMGN** (100% de la posición)
+  - *En cristiano:* Es la posición que peor se está portando: pierde un 3.6% y el impulso se ha girado a la baja. Prefiero cambiarla por una acción que sube con más fuerza.
+  - *Técnico:* Histograma MACD negativo, pérdida del -3.6% desde la entrada y es la posición más débil (RSI14 58.9, la menor de la cartera). Liberamos el hueco (cartera al límite de 10 posiciones) para un valor con ruptura.
+- Compra de **VLTO** (8% de la cartera)
+  - *En cristiano:* La acción acaba de superar su máximo del último mes con una tendencia muy fuerte. Me subo a la ola, pero con tamaño moderado porque ya ha subido mucho.
+  - *Técnico:* Ruptura del máximo de 20 días con cierre 120.31 sobre SMA20 111.51, SMA50 102.45 y SMA200 93.7; ADX14 49.1 y MACD hist +0.40. ATR% 2.2 moderado, peso 8%; RSI14 82 es alto, por eso no más peso.
+
+**Lo que descarta:** PG, KO y ADP también rompen máximos, pero la cartera está en el máximo de 10 posiciones y no quiero rotar demasiado por comisiones; PG (ADX 42.9) sería el siguiente si cae otra posición. REGN, CAH y WST: tendencia buena, pero ADX/impulso inferior a VLTO, o RSI muy alto sin ruptura.
+
+### El Contrarian: 102,001 € (+2.00%)
+
+**Cómo ve el mercado:** Mercado con caídas generalizadas en tecnología y software. Mi cartera lleva 9 posiciones, casi todas por debajo de su SMA 20 pero sin señal de salida. Solo queda un hueco de posición y quiero usarlo en la sobreventa más limpia.
+
+**Lo que ya tiene**
+- **PLTR** (-2.8% desde el 2026-11-04, pesa un 10%): **MANTENER**. RSI14 34.9, -2.8% desde la entrada; sigue sobre SMA200 (153.79) pero sin rebote. No amplío porque la caída de 20 días (-17%) ya es grande y no quiero promediar a la baja.
+- **CRM** (-6.2% desde el 2026-11-04, pesa un 9%): **MANTENER**. -6.2%, cerca del stop del -8% que ejecuta el sistema. RSI14 37.1, sin señal de salida mía; el objetivo es la SMA20 en 229.1.
+- **HPQ** (+0.4% desde el 2026-11-04, pesa un 8%): **MANTENER**. +0.4%, RSI14 41.3, precio (28.52) lejos de SMA20 (30.38): recorrido de rebote pendiente.
+- **PANW** (-6.4% desde el 2026-11-05, pesa un 7%): **MANTENER**. -6.4%, RSI14 36.9. Sin señal de salida; el stop automático protege en -8%. Objetivo SMA20 349.
+- **MPC** (+2.3% desde el 2026-11-05, pesa un 7%): **MANTENER**. +2.3%, RSI14 43.6, aún 5% bajo SMA20 (424.83): el rebote no ha terminado.
+- **NUE** (+1.6% desde el 2026-11-06, pesa un 8%): **MANTENER**. +1.6%, RSI14 45.6, SMA20 en 261.66 aún por encima del precio (252.67).
+- **PSX** (+6.9% desde el 2026-11-09, pesa un 5%): **MANTENER**. +6.9%, RSI14 45.8; falta ~3% para la SMA20 (269.33), dejo correr hasta ese objetivo.
+- **PM** (+0.1% desde el 2026-11-10, pesa un 8%): **MANTENER**. +0.1%, RSI14 45.6, SMA20 en 201.27 por encima del precio de 196.04; sigo esperando el rebote.
+- **XOM** (+1.1% desde el 2026-11-11, pesa un 5%): **MANTENER**. +1.1%, RSI14 43.1, precio bajo SMA20 (174.76): aún hay recorrido hacia el objetivo.
+
+**Decide para mañana**
+- Compra de **EMR** (8% de la cartera)
+  - *En cristiano:* Emerson ha caído fuerte en un solo día sin que su tendencia de fondo se rompa. Apuesto a que recupere su precio medio de las últimas 4 semanas, unos 164.6.
+  - *Técnico:* RSI2 4.3 (<10, sobreventa extrema a corto plazo), %B 0.20 cerca de la banda inferior y caída de 1 día de -3.4%. Cotiza 9% sobre su SMA200 (146.92) y a 20 días está plano (+0.4%), así que es un tropiezo puntual, no estructural. Objetivo: SMA20 en 164.6 (~+2.5%).
+
+**Lo que descarta:** ILMN tiene la sobreventa más extrema (RSI2 2.8) pero cae -24.6% en 20 días con ATR 7.4%: huele a caída estructural. QMCO y TWLO caen más de -22% en 20 días y están pegados a su SMA200. SNPS y APH están justo en su SMA200, sin margen de seguridad. DE, AMZN, GM y WAT tienen sobreventa menos marcada, y además solo queda un hueco de posición (máximo 10).
+
+**S&P 500 (el rival a batir)**: 99,721 € (-0.28%)
