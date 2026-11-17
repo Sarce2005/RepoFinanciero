@@ -598,3 +598,64 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** ILMN tiene la sobreventa más extrema (RSI2 2.8) pero cae -24.6% en 20 días con ATR 7.4%: huele a caída estructural. QMCO y TWLO caen más de -22% en 20 días y están pegados a su SMA200. SNPS y APH están justo en su SMA200, sin margen de seguridad. DE, AMZN, GM y WAT tienen sobreventa menos marcada, y además solo queda un hueco de posición (máximo 10).
 
 **S&P 500 (el rival a batir)**: 99,721 € (-0.28%)
+
+---
+
+## 2026-11-17
+
+### El Surfista: 99,145 € (-0.86%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **AMGN**: 23 acciones a 453.032 → resultado **-370 €**
+  - *Por qué (decidido el 2026-11-16):* Es la posición que peor se está portando: pierde un 3.6% y el impulso se ha girado a la baja. Prefiero cambiarla por una acción que sube con más fuerza.
+- Compra de **VLTO**: 74 acciones a 118.89
+  - *Por qué (decidido el 2026-11-16):* La acción acaba de superar su máximo del último mes con una tendencia muy fuerte. Me subo a la ola, pero con tamaño moderado porque ya ha subido mucho.
+
+**Cómo ve el mercado:** Hoy el mercado cae de forma generalizada (casi todos los candidatos con -1% a -3%), pero las tendencias de fondo siguen intactas: todo cotiza por encima de SMA50 y SMA200, con ADX entre 30 y 54. El histograma MACD se ha vuelto negativo en varias de mis posiciones, lo que indica pausa del impulso, no ruptura de tendencia.
+
+**Lo que ya tiene**
+- **BRK-B** (+3.6% desde el 2026-11-04, pesa un 16%): **MANTENER**. ADX 54.2, MACD hist +1.55, cierre 586.76 muy sobre SMA50 (533). Tendencia fuerte; RSI 73 alto pero no es señal de salida para mí.
+- **MA** (-2.3% desde el 2026-11-04, pesa un 12%): **MANTENER**. Pierde -2.3% pero sigue 7% sobre SMA50 (602.8) con ADX 40.2. MACD hist negativo es solo aviso; el trailing stop 2xATR protege.
+- **MAR** (-0.1% desde el 2026-11-04, pesa un 10%): **MANTENER**. Cierre 422.74 sobre SMA20 (411.6) y SMA50 (378.5), ADX 45.1. MACD negativo único aviso; sin rotura de estructura.
+- **TYL** (-1.5% desde el 2026-11-06, pesa un 6%): **MANTENER**. Sobre SMA50 (365) con ADX 31.6. Solo MACD negativo; no hay ruptura de la tendencia.
+- **HLT** (-1.5% desde el 2026-11-09, pesa un 7%): **MANTENER**. Cierre 370.53 sobre SMA20 364.76, ADX 43.8. Aviso de MACD pero tendencia intacta.
+- **ROP** (+0.4% desde el 2026-11-10, pesa un 6%): **MANTENER**. Ligeramente en positivo, ADX 47.9, muy por encima de SMA50 (407). Sin señal de ruptura.
+- **LLY** (+0.5% desde el 2026-11-10, pesa un 5%): **MANTENER**. ADX 38.2, cierre 1415 sobre SMA20 1371 y SMA50 1251. MACD negativo leve; se mantiene.
+- **EW** (-1.5% desde el 2026-11-16, pesa un 6%): **MANTENER**. Entrada de ayer, ADX 37.9, MACD hist +0.79, sin señales de salida. No tiene sentido pagar comisión por un -1.5% de ruido.
+- **VLTO** (-0.4% desde el 2026-11-17, pesa un 8%): **MANTENER**. Entrada de hoy, ADX 49, MACD hist +0.17 positivo, sobre SMA50 102.9. Sin señales de salida.
+- **SPGI**: **STOP automático**, se vende mañana. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado. (Trailing stop 2xATR: cierre 452.35 < 453.40 (máximo desde la entrada 475.11))
+
+**Decide para mañana:** no operar. No ve una señal clara.
+
+**Lo que descarta:** MCK (hist +3.4, ADX 35) es tentador pero ya tengo LLY y EW en sanidad y solo queda un hueco de posición; PG, CAH, KO y CL tienen RSI14 ~70 y MACD débil. ICE, CME, HCA y DIS tienen ADX bajo o impulso casi plano, sin ruptura ni cruce MACD. Con el mercado cayendo prefiero conservar liquidez.
+
+- 🚫 El árbitro rechaza Compra de REGN: ya hay 10 posiciones
+
+### El Contrarian: 100,381 € (+0.38%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **EMR**: 55 acciones a 160.76
+  - *Por qué (decidido el 2026-11-16):* Emerson ha caído fuerte en un solo día sin que su tendencia de fondo se rompa. Apuesto a que recupere su precio medio de las últimas 4 semanas, unos 164.6.
+
+**Cómo ve el mercado:** Mercado con caídas generalizadas en tecnología y financieras (varios valores con RSI2 por debajo de 10). La mayoría de candidatos sigue muy por encima de su SMA 200, así que el patrón es de miedo puntual más que de hundimiento. Mi cartera está llena de energía y valores aún por debajo de su SMA 20, sin señales de salida.
+
+**Lo que ya tiene**
+- **PLTR** (-5.1% desde el 2026-11-04, pesa un 10%): **MANTENER**. -5.1%, RSI14 32.8 y 20d -18.7%: caída grande, pero aún sobre SMA200 (153.84). El stop del -8% protege; no amplío por tamaño de caída.
+- **HPQ** (+1.1% desde el 2026-11-04, pesa un 8%): **MANTENER**. +1.1%, precio 28.71 lejos de SMA20 (30.25) y RSI14 42.5: el rebote aún no se ha completado.
+- **MPC** (+0.6% desde el 2026-11-05, pesa un 7%): **MANTENER**. +0.6%, RSI14 41.6, SMA20 en 420.9 muy por encima: queda recorrido hasta el objetivo.
+- **NUE** (+1.4% desde el 2026-11-06, pesa un 8%): **MANTENER**. +1.4%, RSI14 45.2, objetivo SMA20 261.2 aún no alcanzado.
+- **PSX** (+5.3% desde el 2026-11-09, pesa un 5%): **MANTENER**. +5.4%, pero precio 256.9 por debajo de SMA20 (267.6) y RSI14 43.5; sin señal de salida.
+- **PM** (-0.7% desde el 2026-11-10, pesa un 8%): **MANTENER**. -0.7%, RSI14 43.5, SMA20 en 201 como objetivo; tesis intacta.
+- **XOM** (+1.2% desde el 2026-11-11, pesa un 5%): **MANTENER**. +1.3%, RSI14 45, SMA20 173.2 todavía por encima del precio.
+- **EMR** (-1.0% desde el 2026-11-17, pesa un 8%): **MANTENER**. Entrada hoy (-1%), RSI2 2.9; esperar el rebote hacia SMA20 164.6.
+- **CRM**: **STOP automático**, se vende mañana. El Contrarian sale si pierde más de un 8% desde la compra: el rebote no llega y corta la pérdida antes de que crezca. (Stop fijo -8%: -15.1% desde la entrada a 229.00)
+- **PANW**: **STOP automático**, se vende mañana. El Contrarian sale si pierde más de un 8% desde la compra: el rebote no llega y corta la pérdida antes de que crezca. (Stop fijo -8%: -8.4% desde la entrada a 337.55)
+
+**Decide para mañana:** no operar. No ve una señal clara.
+
+**Lo que descarta:** Con 8 posiciones solo caben 2 nuevas (máx. 10). Descarto ACN y MCO (RSI2 muy bajo pero RSI14 ~45-49 y menos profundidad respecto a la media; ACN además muy extendida y tecnológica duplicando MSFT/PLTR), TWLO y MRNA (caídas de 20d de -25% y volatilidad extrema, parecen estructurales) y PANW (ya en stop).
+
+- 🚫 El árbitro rechaza Compra de MSFT: ya hay 10 posiciones
+- 🚫 El árbitro rechaza Compra de PFE: ya hay 10 posiciones
+
+**S&P 500 (el rival a batir)**: 98,676 € (-1.32%)

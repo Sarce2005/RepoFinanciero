@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 15721.541450193054,
+  "cash": 17178.19798103366,
   "positions": {
     "BRK-B": {
       "shares": 29,
@@ -21,13 +21,6 @@
       "entry_price": 423.32000732421875,
       "entry_date": "2026-11-04",
       "cost_eur": 9808.72601714287,
-      "ccy": "USD"
-    },
-    "AMGN": {
-      "shares": 23,
-      "entry_price": 479.6099853515625,
-      "entry_date": "2026-11-04",
-      "cost_eur": 9830.746859996776,
       "ccy": "USD"
     },
     "SPGI": {
@@ -71,35 +64,30 @@
       "entry_date": "2026-11-16",
       "cost_eur": 6037.000059439644,
       "ccy": "USD"
+    },
+    "VLTO": {
+      "shares": 74,
+      "entry_price": 118.88999938964844,
+      "entry_date": "2026-11-17",
+      "cost_eur": 8004.371266583,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0015",
-      "created": "2026-11-16",
+      "id": "A-0017",
+      "created": "2026-11-17",
       "action": "SELL",
-      "ticker": "AMGN",
-      "weight": 0,
+      "ticker": "SPGI",
+      "weight": 0.0,
       "fraction": 1.0,
-      "reason": "Histograma MACD negativo, pérdida del -3.6% desde la entrada y es la posición más débil (RSI14 58.9, la menor de la cartera). Liberamos el hueco (cartera al límite de 10 posiciones) para un valor con ruptura.",
-      "plain": "Es la posición que peor se está portando: pierde un 3.6% y el impulso se ha girado a la baja. Prefiero cambiarla por una acción que sube con más fuerza.",
-      "kind": "agente",
-      "age": 0
-    },
-    {
-      "id": "A-0016",
-      "created": "2026-11-16",
-      "action": "BUY",
-      "ticker": "VLTO",
-      "weight": 0.08,
-      "fraction": 1.0,
-      "reason": "Ruptura del máximo de 20 días con cierre 120.31 sobre SMA20 111.51, SMA50 102.45 y SMA200 93.7; ADX14 49.1 y MACD hist +0.40. ATR% 2.2 moderado, peso 8%; RSI14 82 es alto, por eso no más peso.",
-      "plain": "La acción acaba de superar su máximo del último mes con una tendencia muy fuerte. Me subo a la ola, pero con tamaño moderado porque ya ha subido mucho.",
-      "kind": "agente",
+      "reason": "Trailing stop 2xATR: cierre 452.35 < 453.40 (máximo desde la entrada 475.11)",
+      "plain": "",
+      "kind": "stop",
       "age": 0
     }
   ],
-  "last_equity": 100834.12481424115,
-  "last_run": "2026-11-16",
-  "next_id": 17
+  "last_equity": 99144.69919438356,
+  "last_run": "2026-11-17",
+  "next_id": 18
 }
