@@ -1,6 +1,6 @@
 {
   "agent": "B",
-  "cash": 25217.102117195587,
+  "cash": 41250.98625791468,
   "positions": {
     "PLTR": {
       "shares": 68,
@@ -9,25 +9,11 @@
       "cost_eur": 9996.12516307208,
       "ccy": "USD"
     },
-    "CRM": {
-      "shares": 49,
-      "entry_price": 229.0,
-      "entry_date": "2026-11-04",
-      "cost_eur": 10000.046585421322,
-      "ccy": "USD"
-    },
     "HPQ": {
       "shares": 316,
       "entry_price": 28.40999984741211,
       "entry_date": "2026-11-04",
       "cost_eur": 8000.7145300093625,
-      "ccy": "USD"
-    },
-    "PANW": {
-      "shares": 26,
-      "entry_price": 337.54998779296875,
-      "entry_date": "2026-11-05",
-      "cost_eur": 7829.259675106142,
       "ccy": "USD"
     },
     "MPC": {
@@ -75,31 +61,31 @@
   },
   "pending": [
     {
-      "id": "B-0019",
-      "created": "2026-11-17",
-      "action": "SELL",
-      "ticker": "CRM",
-      "weight": 0.0,
+      "id": "B-0021",
+      "created": "2026-11-18",
+      "action": "BUY",
+      "ticker": "ACN",
+      "weight": 0.07,
       "fraction": 1.0,
-      "reason": "Stop fijo -8%: -15.1% desde la entrada a 229.00",
-      "plain": "",
-      "kind": "stop",
+      "reason": "RSI2 0.84 (sobreventa extrema), %B -0.11 (cierre bajo la banda de Bollinger inferior) y caída de -4.9% en el día. El precio sigue un 21% sobre la SMA200 (227 vs 187) y la caída a 20 días es solo -5.3%, así que no parece estructural. Objetivo: SMA20 en 251.",
+      "plain": "Accenture cayó casi 5% en un día pero sigue en tendencia alcista de largo plazo. Apuesto a que recupera parte de la caída hacia su media de 20 días.",
+      "kind": "agente",
       "age": 0
     },
     {
-      "id": "B-0020",
-      "created": "2026-11-17",
-      "action": "SELL",
-      "ticker": "PANW",
-      "weight": 0.0,
+      "id": "B-0022",
+      "created": "2026-11-18",
+      "action": "BUY",
+      "ticker": "MRK",
+      "weight": 0.07,
       "fraction": 1.0,
-      "reason": "Stop fijo -8%: -8.4% desde la entrada a 337.55",
-      "plain": "",
-      "kind": "stop",
+      "reason": "RSI2 1.73, RSI14 37.2 y %B -0.10 tras caer -3.9% en el día. Cotiza un 7.6% por encima de la SMA200 (137.8 vs 128.0) y la caída a 20 días es moderada (-8%). Objetivo: SMA20 en 145.65.",
+      "plain": "Merck ha caído con fuerza en poco tiempo, pero su tendencia de fondo sigue siendo sana. Es un rebote típico tras un exceso de ventas.",
+      "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 100380.58671723542,
-  "last_run": "2026-11-17",
-  "next_id": 21
+  "last_equity": 99755.64990435241,
+  "last_run": "2026-11-18",
+  "next_id": 23
 }

@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 17178.19798103366,
+  "cash": 24533.209606017313,
   "positions": {
     "BRK-B": {
       "shares": 29,
@@ -21,13 +21,6 @@
       "entry_price": 423.32000732421875,
       "entry_date": "2026-11-04",
       "cost_eur": 9808.72601714287,
-      "ccy": "USD"
-    },
-    "SPGI": {
-      "shares": 18,
-      "entry_price": 485.0,
-      "entry_date": "2026-11-05",
-      "cost_eur": 7787.956135893262,
       "ccy": "USD"
     },
     "TYL": {
@@ -75,19 +68,31 @@
   },
   "pending": [
     {
-      "id": "A-0017",
-      "created": "2026-11-17",
+      "id": "A-0018",
+      "created": "2026-11-18",
       "action": "SELL",
-      "ticker": "SPGI",
+      "ticker": "MA",
       "weight": 0.0,
       "fraction": 1.0,
-      "reason": "Trailing stop 2xATR: cierre 452.35 < 453.40 (máximo desde la entrada 475.11)",
+      "reason": "Trailing stop 2xATR: cierre 643.37 < 644.97 (máximo desde la entrada 672.68)",
       "plain": "",
       "kind": "stop",
       "age": 0
+    },
+    {
+      "id": "A-0019",
+      "created": "2026-11-18",
+      "action": "BUY",
+      "ticker": "COST",
+      "weight": 0.1,
+      "fraction": 1.0,
+      "reason": "Cierre 1096.62 sobre SMA20 1048, SMA50 978 y SMA200 975. ADX 53.5 (tendencia muy fuerte) y MACD hist +3.51. ATR% 1.71, volatilidad baja, permite un peso del 10%. Hoy cae 1.2% y sirve de entrada algo más barata.",
+      "plain": "Costco está en una subida muy sólida y hoy ha bajado un poco, así que aprovecho para entrar. Es poco volátil, por eso le doy un peso importante.",
+      "kind": "agente",
+      "age": 0
     }
   ],
-  "last_equity": 99144.69919438356,
-  "last_run": "2026-11-17",
-  "next_id": 18
+  "last_equity": 98862.38048410635,
+  "last_run": "2026-11-18",
+  "next_id": 20
 }
