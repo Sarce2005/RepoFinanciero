@@ -723,3 +723,69 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** CVX: sobreventa válida, pero ya tengo XOM, MPC y PSX, y más energía sería demasiada concentración. MRNA: caída de -20% en 20 días y ATR del 9.5%, demasiado estructural y volátil. JPM, BMY y PFE: sobreventa menos extrema y JPM/BMY apenas están sobre la SMA200. AMGN y ABBV: RSI14 alto, sin sobreventa real.
 
 **S&P 500 (el rival a batir)**: 98,676 € (-1.32%)
+
+---
+
+## 2026-11-19
+
+### El Surfista: 97,756 € (-2.24%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **MA**: 20 acciones a 637.05 → resultado **-180 €**
+  - *Por qué (decidido el 2026-11-18):* stop automático. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado.
+- Compra de **COST**: 9 acciones a 1089.0
+  - *Por qué (decidido el 2026-11-18):* Costco está en una subida muy sólida y hoy ha bajado un poco, así que aprovecho para entrar. Es poco volátil, por eso le doy un peso importante.
+
+**Cómo ve el mercado:** Mercado con tendencia alcista pero con retrocesos de corto plazo: varias de mis posiciones tienen el histograma MACD en negativo, aunque siguen muy por encima de la SMA50 y con ADX de 29 a 53. Es una pausa dentro de la tendencia, no una ruptura. Hoy los trailing stops sacan BRK-B, HLT y LLY.
+
+**Lo que ya tiene**
+- **MAR** (-2.2% desde el 2026-11-04, pesa un 10%): **MANTENER**. Cierre 414 sobre SMA50 (382) con ADX 42.8. El MACD negativo es solo una pausa; sin rotura de la SMA50 no vendo.
+- **TYL** (-2.8% desde el 2026-11-06, pesa un 6%): **MANTENER**. Cierre 404 sobre SMA20 (406 aprox.) y muy sobre SMA50 (368). ADX 28.8 sigue por encima de 25, pero lo vigilo: si se apaga o pierde la SMA50, salgo.
+- **ROP** (-1.5% desde el 2026-11-10, pesa un 6%): **MANTENER**. ADX 44.7, cierre 463 sobre SMA50 410. Retroceso de -1.5% desde la entrada, dentro del ruido normal.
+- **EW** (-2.9% desde el 2026-11-16, pesa un 6%): **MANTENER**. Sin señales de salida, RSI 66.5, ADX 37.4 y cierre 103.88 sobre SMA20 de 99.4.
+- **VLTO** (-2.4% desde el 2026-11-17, pesa un 8%): **MANTENER**. ADX 47.1, cierre 116 sobre SMA50 104. El MACD negativo no basta; el trailing stop de 2xATR protege.
+- **COST** (+0.4% desde el 2026-11-19, pesa un 9%): **MANTENER**. Entrada de hoy. ADX 52.6, cierre 1093 sobre SMA50 982; tendencia muy fuerte. Peso 9.2%, no amplío.
+- **BRK-B**: **STOP automático**, se vende mañana. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado. (Trailing stop 2xATR: cierre 572.04 < 573.75 (máximo desde la entrada 592.94))
+- **HLT**: **STOP automático**, se vende mañana. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado. (Trailing stop 2xATR: cierre 362.30 < 363.37 (máximo desde la entrada 379.76))
+- **LLY**: **STOP automático**, se vende mañana. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado. (Trailing stop 2xATR: cierre 1351.12 < 1356.86 (máximo desde la entrada 1443.50))
+
+**Decide para mañana**
+- Compra de **DIS** (6% de la cartera)
+  - *En cristiano:* Disney sube con fuerza y mantiene su tendencia por encima de todas sus medias. Entro con una posición moderada porque se mueve bastante en el día a día.
+  - *Técnico:* Cierre 120.25 por encima de SMA20 115.88, SMA50 110.36 y SMA200 103.62 (estructura alcista completa). ADX 40.4 indica tendencia fuerte y el histograma MACD sigue positivo (0.14). ATR% 2.4 permite un peso moderado de 6%.
+
+**Lo que descarta:** TGT: ADX 25.6 apenas confirma tendencia, ATR% 3.2 es el más alto y RSI2 de 92 indica compra tras un salto. CAH: ADX 38 pero cayó 2.15% hoy y el MACD está casi plano (0.06). EW y COST ya están en cartera; no amplío para no concentrar.
+
+### El Contrarian: 97,957 € (-2.04%)
+
+**Ejecutado hoy a la apertura**
+- Compra de **ACN**: 33 acciones a 228.21
+  - *Por qué (decidido el 2026-11-18):* Accenture cayó casi 5% en un día pero sigue en tendencia alcista de largo plazo. Apuesto a que recupera parte de la caída hacia su media de 20 días.
+- Compra de **MRK**: 55 acciones a 139.17
+  - *Por qué (decidido el 2026-11-18):* Merck ha caído con fuerza en poco tiempo, pero su tendencia de fondo sigue siendo sana. Es un rebote típico tras un exceso de ventas.
+
+**Cómo ve el mercado:** Mercado con caídas generalizadas: todas mis posiciones están en negativo y casi todas tienen RSI14 entre 31 y 42. Las caídas llevan varios días y el rebote aún no llega, así que conviene ser selectivo y no gastar toda la liquidez. Hoy toca podar lo que ha roto la tesis (PLTR) y añadir como mucho un valor sano.
+
+**Lo que ya tiene**
+- **PLTR** (-6.8% desde el 2026-11-04, pesa un 10%): **VENDER**. Perdió la SMA200; RSI14 31.3, -6.8%. La tesis ya no vale.
+- **HPQ** (-2.1% desde el 2026-11-04, pesa un 8%): **MANTENER**. -2.1%, RSI14 38.2. Aún lejos de la SMA20 (29.82), objetivo de rebote intacto.
+- **MPC** (-6.4% desde el 2026-11-05, pesa un 7%): **MANTENER**. -6.4%, RSI14 34.3, pero sigue muy por encima de su SMA200 (304). El stop del -8% queda cerca; el sistema lo ejecutará si toca.
+- **NUE** (-0.5% desde el 2026-11-06, pesa un 8%): **MANTENER**. -0.5%, RSI14 41.5. SMA20 en 259.96, por encima del cierre actual de 247.43.
+- **PSX** (-0.5% desde el 2026-11-09, pesa un 5%): **MANTENER**. -0.5%, RSI14 36.4. Objetivo SMA20 en 262, aún lejos.
+- **PM** (-4.8% desde el 2026-11-10, pesa un 8%): **MANTENER**. -4.8%, RSI14 34.8, RSI2 2.4. Sobre la SMA200 (181.3). Dejo que rebote hacia 200.
+- **XOM** (-3.8% desde el 2026-11-11, pesa un 5%): **MANTENER**. -3.8%, RSI14 35. Mantiene la tesis; objetivo SMA20 en 171.5.
+- **EMR** (-2.0% desde el 2026-11-17, pesa un 8%): **MANTENER**. -2%, RSI14 42.4. Entrada reciente (17/11) y sin señal de salida.
+- **ACN** (-4.2% desde el 2026-11-19, pesa un 7%): **MANTENER**. Entrada de hoy, -4.2%. RSI2 0.42, muy sobrevendida. No amplío porque la caída de 20 días es -15.5%, algo grande.
+- **MRK** (-4.6% desde el 2026-11-19, pesa un 7%): **MANTENER**. Entrada de hoy, -4.6%. RSI2 0.72, RSI14 31.9 y sobre la SMA200 (128). No amplío para no concentrar riesgo.
+
+**Decide para mañana**
+- Venta de **PLTR** (100% de la posición)
+  - *En cristiano:* La acción ha caído por debajo de su media de largo plazo (200 días). Ya no es una empresa 'sana con susto puntual'. Cierro antes de que el stop me saque con más pérdida.
+  - *Técnico:* Cierre 153.68, por debajo de su SMA200, con -6.8% desde la entrada. RSI14 31.3 y SMA20 174 muy lejos. La tesis de 'sana pero castigada' ya no se cumple y el stop del -8% está cerca.
+- Compra de **PFE** (7% de la cartera)
+  - *En cristiano:* Pfizer ha caído mucho en pocos días, pero sigue por encima de su media de 200 días. Apuesto a un rebote hacia su media de 20 días, cerca de 29,2. Entro con un peso moderado.
+  - *Técnico:* RSI2 0.78 (sobreventa extrema), RSI14 34.9, %B -0.12 (bajo la banda inferior). Cierre 27.54 por encima de la SMA200 (26.26). Caída de 20 días de solo -8%, no parece estructural. Objetivo SMA20 en 29.23, un +6%.
+
+**Lo que descarta:** MPC y ACN ya los tengo y su caída de 20 días es grande (-19.7% y -15.5%), así que no añado. ELV tiene RSI2 6.7 pero cae -12% en 20 días y el mercado sigue débil. DE, AMGN, V, BLK y similares no están lo bastante sobrevendidos (RSI2 de 0.5 a 3, pero RSI14 mayor de 40 o %B positivo). Conservo liquidez porque no hay rebote confirmado.
+
+**S&P 500 (el rival a batir)**: 96,727 € (-3.27%)
