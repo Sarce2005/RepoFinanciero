@@ -1,14 +1,7 @@
 {
   "agent": "A",
-  "cash": 27192.18072347836,
+  "cash": 48052.79786594818,
   "positions": {
-    "BRK-B": {
-      "shares": 29,
-      "entry_price": 566.2999877929688,
-      "entry_date": "2026-11-04",
-      "cost_eur": 14635.75095965985,
-      "ccy": "USD"
-    },
     "MAR": {
       "shares": 26,
       "entry_price": 423.32000732421875,
@@ -23,25 +16,11 @@
       "cost_eur": 5602.276480564161,
       "ccy": "USD"
     },
-    "HLT": {
-      "shares": 20,
-      "entry_price": 376.0299987792969,
-      "entry_date": "2026-11-09",
-      "cost_eur": 6706.803026920479,
-      "ccy": "USD"
-    },
     "ROP": {
       "shares": 14,
       "entry_price": 470.0799865722656,
       "entry_date": "2026-11-10",
       "cost_eur": 5901.2624800952035,
-      "ccy": "USD"
-    },
-    "LLY": {
-      "shares": 4,
-      "entry_price": 1408.489990234375,
-      "entry_date": "2026-11-10",
-      "cost_eur": 5051.948221814246,
       "ccy": "USD"
     },
     "EW": {
@@ -64,59 +43,42 @@
       "entry_date": "2026-11-19",
       "cost_eur": 8941.56443005316,
       "ccy": "USD"
+    },
+    "DIS": {
+      "shares": 53,
+      "entry_price": 121.02999877929688,
+      "entry_date": "2026-11-20",
+      "cost_eur": 5850.819084024514,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0020",
-      "created": "2026-11-19",
+      "id": "A-0024",
+      "created": "2026-11-20",
       "action": "SELL",
-      "ticker": "BRK-B",
+      "ticker": "MAR",
       "weight": 0.0,
       "fraction": 1.0,
-      "reason": "Trailing stop 2xATR: cierre 572.04 < 573.75 (máximo desde la entrada 592.94)",
+      "reason": "Trailing stop 2xATR: cierre 406.64 < 408.91 (máximo desde la entrada 428.44)",
       "plain": "",
       "kind": "stop",
       "age": 0
     },
     {
-      "id": "A-0021",
-      "created": "2026-11-19",
-      "action": "SELL",
-      "ticker": "HLT",
-      "weight": 0.0,
-      "fraction": 1.0,
-      "reason": "Trailing stop 2xATR: cierre 362.30 < 363.37 (máximo desde la entrada 379.76)",
-      "plain": "",
-      "kind": "stop",
-      "age": 0
-    },
-    {
-      "id": "A-0022",
-      "created": "2026-11-19",
-      "action": "SELL",
-      "ticker": "LLY",
-      "weight": 0.0,
-      "fraction": 1.0,
-      "reason": "Trailing stop 2xATR: cierre 1351.12 < 1356.86 (máximo desde la entrada 1443.50)",
-      "plain": "",
-      "kind": "stop",
-      "age": 0
-    },
-    {
-      "id": "A-0023",
-      "created": "2026-11-19",
+      "id": "A-0025",
+      "created": "2026-11-20",
       "action": "BUY",
-      "ticker": "DIS",
-      "weight": 0.06,
+      "ticker": "TGT",
+      "weight": 0.04,
       "fraction": 1.0,
-      "reason": "Cierre 120.25 por encima de SMA20 115.88, SMA50 110.36 y SMA200 103.62 (estructura alcista completa). ADX 40.4 indica tendencia fuerte y el histograma MACD sigue positivo (0.14). ATR% 2.4 permite un peso moderado de 6%.",
-      "plain": "Disney sube con fuerza y mantiene su tendencia por encima de todas sus medias. Entro con una posición moderada porque se mueve bastante en el día a día.",
+      "reason": "Cierre 165.83 sobre SMA20 158.19, SMA50 155.94 y SMA200 136.15: estructura alcista completa. MACD hist +0.80, ADX 27 (>25) y +9.3% en 20 días. ATR% 3.26 es alto, por eso peso reducido del 4%.",
+      "plain": "Target sube de forma ordenada y por encima de sus medias de 20, 50 y 200 días. Es una acción bastante movida, así que entro con una cantidad pequeña.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 97755.93335779637,
-  "last_run": "2026-11-19",
-  "next_id": 24
+  "last_equity": 97434.79720964498,
+  "last_run": "2026-11-20",
+  "next_id": 26
 }
