@@ -851,3 +851,54 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 **Lo que descarta:** Cartera llena (10/10), así que no puedo abrir PYPL (RSI2 0.95, %B -0.15) ni NTAP (RSI2 0.78, pero caída de 20 días del -26.8%, posible hundimiento estructural y rozando la SMA200). No vendo posiciones sin señal solo para rotar: costaría comisiones y todas están en pérdidas. Tampoco amplío ninguna, porque el mercado sigue cayendo y varias están cerca del stop.
 
 **S&P 500 (el rival a batir)**: 93,129 € (-6.87%)
+
+---
+
+## 2026-11-23
+
+### El Surfista: 98,355 € (-1.64%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **MAR**: 26 acciones a 415.04 → resultado **+77 €**
+  - *Por qué (decidido el 2026-11-20):* stop automático. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado.
+- Compra de **TGT**: 25 acciones a 165.0
+  - *Por qué (decidido el 2026-11-20):* Target sube de forma ordenada y por encima de sus medias de 20, 50 y 200 días. Es una acción bastante movida, así que entro con una cantidad pequeña.
+
+**Cómo ve el mercado:** Mercado con tendencias alcistas fuertes (ADX 27-51 en toda mi cartera, cierres sobre SMA50), pero varias posiciones muestran histograma MACD negativo: el impulso se enfría a corto plazo mientras la estructura sigue intacta. Solo TGT pasa el cribaje hoy y ya la compré en la apertura de hoy.
+
+**Lo que ya tiene**
+- **TYL** (-2.2% desde el 2026-11-06, pesa un 6%): **MANTENER**. Cierre 406.71 muy sobre SMA50 (369.98) y ADX 26.8; el MACD negativo es solo una pausa. Si cierra bajo SMA50 o salta el trailing, salgo.
+- **EW** (-1.8% desde el 2026-11-16, pesa un 6%): **MANTENER**. ADX 35.1, RSI 65.7 y precio 105.06 sobre SMA20 (100.79) y SMA50 (92.61). Pérdida -1.8% dentro del ruido normal.
+- **VLTO** (-0.9% desde el 2026-11-17, pesa un 8%): **MANTENER**. ADX 45.3, tendencia fuerte; cierre 117.78 sobre SMA20 115.08. MACD negativo es una pausa, no ruptura.
+- **COST** (+0.8% desde el 2026-11-19, pesa un 9%): **MANTENER**. ADX 51.5 (tendencia muy fuerte), cierre 1097.91 sobre SMA50 989.39; ligera ganancia. Vigilo el MACD.
+- **DIS** (-0.6% desde el 2026-11-20, pesa un 6%): **MANTENER**. ADX 39.2, cierre 120.27 sobre SMA20 y SMA50 (110.82). Sin ruptura de estructura.
+- **TGT** (+1.9% desde el 2026-11-23, pesa un 4%): **MANTENER**. Entrada de hoy, ADX 27.9, MACD hist +0.86, sin señales de salida. Con ATR 3.25% el peso del 3.9% es prudente; no amplío aún para no perseguir el precio.
+- **ROP**: **STOP automático**, se vende mañana. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado. (Trailing stop 2xATR: cierre 458.13 < 460.09 (máximo desde la entrada 483.72))
+
+**Decide para mañana:** no operar. No ve una señal clara.
+
+**Lo que descarta:** El único candidato, TGT, ya está en cartera desde hoy; ampliar con ADX 27.9 (justo sobre 25), sin ruptura de 20 días ni cruce MACD y ATR del 3.25% no aporta convicción extra. Con 55% en liquidez y varias posiciones con MACD debilitándose, prefiero esperar nuevas señales.
+
+### El Contrarian: 98,109 € (-1.89%)
+
+**Cómo ve el mercado:** Mercado con caídas amplias en energía y sanidad: mis candidatos están sobrevendidos, pero varios (MPC, VLO, PSX) arrastran caídas de 20 días de -17% a -24%, lo que huele a problema estructural más que a susto puntual. Mi cartera sigue en negativo casi entera, con la liquidez al 30%, así que selecciono con cuidado.
+
+**Lo que ya tiene**
+- **HPQ** (+1.7% desde el 2026-11-04, pesa un 8%): **MANTENER**. +1.7%, RSI14 45.9; aún lejos de la SMA20 (29.28), el objetivo de salida no se ha alcanzado.
+- **NUE** (-0.2% desde el 2026-11-06, pesa un 8%): **MANTENER**. Prácticamente en tablas (-0.2%), RSI14 44.6; objetivo SMA20 en 258.57 queda por delante.
+- **PSX** (-2.7% desde el 2026-11-09, pesa un 5%): **MANTENER**. -2.7%, RSI14 33.6 y RSI2 1.64: sobreventa, pero caída de 20d de -17% me impide ampliar. Stop automático protege.
+- **PM** (-6.8% desde el 2026-11-10, pesa un 8%): **MANTENER**. -6.8%, cerca del stop del -8% (≈180.2); RSI14 31.3 y apenas 0.6% sobre la SMA200 (181.38). Dejo que actúe el stop si rompe; no amplío.
+- **XOM** (-5.0% desde el 2026-11-11, pesa un 5%): **MANTENER**. -5.0%, RSI14 33.7, sigue sobre SMA200; rebote a SMA20 (169.08) posible. No amplío por exposición a energía.
+- **EMR** (-1.5% desde el 2026-11-17, pesa un 8%): **MANTENER**. -1.5%, RSI14 46.1; sin señal de salida ni de ampliar.
+- **ACN** (-2.6% desde el 2026-11-19, pesa un 7%): **MANTENER**. -2.6%, RSI14 40.2; SMA20 (246.65) lejos arriba, hay recorrido de rebote.
+- **MRK** (-2.7% desde el 2026-11-19, pesa un 7%): **MANTENER**. -2.7%, RSI14 37.3; sin señal de salida, esperando rebote hacia SMA20 (144.10).
+- **PFE** (-1.4% desde el 2026-11-20, pesa un 7%): **MANTENER**. -1.4%, RSI2 0.58 y RSI14 33.8, sobre SMA200 (26.28). Ya pesa 6.9%; mantengo sin ampliar.
+- **MPC**: **STOP automático**, se vende mañana. El Contrarian sale si pierde más de un 8% desde la compra: el rebote no llega y corta la pérdida antes de que crezca. (Stop fijo -8%: -9.0% desde la entrada a 393.16)
+
+**Decide para mañana:** no operar. No ve una señal clara.
+
+**Lo que descarta:** ELV: RSI2 10.73 (no <10) y apenas 1% sobre su SMA200, además de caer -3.8% en el día: riesgo de perder el filtro de salud. MPC/VLO/PSX/EOG: caídas de 20 días de -11% a -24% (estructurales) y ya tengo demasiada energía (PSX, XOM). ROP, COR, TRGP: RSI14 por encima de 42, sobreventa insuficiente. Además solo me queda 1 hueco de posición.
+
+- 🚫 El árbitro rechaza Compra de MO: ya hay 10 posiciones
+
+**S&P 500 (el rival a batir)**: 98,154 € (-1.85%)

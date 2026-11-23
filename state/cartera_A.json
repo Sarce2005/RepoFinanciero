@@ -1,14 +1,7 @@
 {
   "agent": "A",
-  "cash": 48052.79786594818,
+  "cash": 54151.8788905683,
   "positions": {
-    "MAR": {
-      "shares": 26,
-      "entry_price": 423.32000732421875,
-      "entry_date": "2026-11-04",
-      "cost_eur": 9808.72601714287,
-      "ccy": "USD"
-    },
     "TYL": {
       "shares": 15,
       "entry_price": 415.7699890136719,
@@ -50,35 +43,30 @@
       "entry_date": "2026-11-20",
       "cost_eur": 5850.819084024514,
       "ccy": "USD"
+    },
+    "TGT": {
+      "shares": 25,
+      "entry_price": 165.0,
+      "entry_date": "2026-11-23",
+      "cost_eur": 3786.4077179832443,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0024",
-      "created": "2026-11-20",
+      "id": "A-0026",
+      "created": "2026-11-23",
       "action": "SELL",
-      "ticker": "MAR",
+      "ticker": "ROP",
       "weight": 0.0,
       "fraction": 1.0,
-      "reason": "Trailing stop 2xATR: cierre 406.64 < 408.91 (máximo desde la entrada 428.44)",
+      "reason": "Trailing stop 2xATR: cierre 458.13 < 460.09 (máximo desde la entrada 483.72)",
       "plain": "",
       "kind": "stop",
       "age": 0
-    },
-    {
-      "id": "A-0025",
-      "created": "2026-11-20",
-      "action": "BUY",
-      "ticker": "TGT",
-      "weight": 0.04,
-      "fraction": 1.0,
-      "reason": "Cierre 165.83 sobre SMA20 158.19, SMA50 155.94 y SMA200 136.15: estructura alcista completa. MACD hist +0.80, ADX 27 (>25) y +9.3% en 20 días. ATR% 3.26 es alto, por eso peso reducido del 4%.",
-      "plain": "Target sube de forma ordenada y por encima de sus medias de 20, 50 y 200 días. Es una acción bastante movida, así que entro con una cantidad pequeña.",
-      "kind": "agente",
-      "age": 0
     }
   ],
-  "last_equity": 97434.79720964498,
-  "last_run": "2026-11-20",
-  "next_id": 26
+  "last_equity": 98355.09459448753,
+  "last_run": "2026-11-23",
+  "next_id": 27
 }
