@@ -902,3 +902,61 @@ Simulación sin dinero real. Nada de esto es una recomendación de inversión.
 - 🚫 El árbitro rechaza Compra de MO: ya hay 10 posiciones
 
 **S&P 500 (el rival a batir)**: 98,154 € (-1.85%)
+
+---
+
+## 2026-11-24
+
+### El Surfista: 98,559 € (-1.44%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **ROP**: 14 acciones a 458.13 → resultado **-59 €**
+  - *Por qué (decidido el 2026-11-23):* stop automático. El Surfista sale si el precio cae más de 2 veces su movimiento diario habitual (ATR) desde el máximo alcanzado: la ola se ha roto y no quiere devolver lo ganado.
+
+**Cómo ve el mercado:** Mercado con tendencias alcistas fuertes en nuestras posiciones (ADX alto, precios sobre SMA50 y SMA200), pero varias muestran histograma MACD negativo tras subir con fuerza: es una pausa del impulso, no una ruptura. Tenemos un 61% de liquidez, así que hay margen para añadir selectivamente.
+
+**Lo que ya tiene**
+- **TYL** (-0.8% desde el 2026-11-06, pesa un 6%): **MANTENER**. Cierre 412.49 sobre SMA50 371.16, ADX 26.6; el MACD negativo es aviso, pero la tendencia sigue intacta. Stop de 2xATR protege.
+- **EW** (-0.8% desde el 2026-11-16, pesa un 6%): **MANTENER**. ADX 34.7, precio 106.12 muy sobre SMA50 93.01; MACD negativo solo indica pausa tras la subida.
+- **VLTO** (+0.1% desde el 2026-11-17, pesa un 8%): **MANTENER**. ADX 44.9, cierre 119.04 sobre SMA50 105.19; tendencia fuerte, sin ruptura de estructura.
+- **COST** (+0.2% desde el 2026-11-19, pesa un 9%): **MANTENER**. ADX 49.6, cierre 1091.71 sobre SMA50 993.22; el MACD negativo no rompe la tendencia.
+- **DIS** (+1.2% desde el 2026-11-20, pesa un 6%): **MANTENER**. Cruce alcista del MACD, ADX 39.3, cierre sobre SMA20 y SMA50; sin señales de salida. Peso 6%, no amplío por llevar solo 4 días.
+- **TGT** (+6.7% desde el 2026-11-23, pesa un 4%): **AMPLIAR**. Ruptura de 20 días con ADX 29.4 y MACD positivo; amplío con prudencia por ATR% 3.2.
+
+**Decide para mañana**
+- Compra de **GILD** (6% de la cartera)
+  - *En cristiano:* GILD acaba de superar su máximo del último mes y lleva una tendencia alcista clara y fuerte. Entramos con un tamaño moderado para subirnos a la ola.
+  - *Técnico:* Ruptura del máximo de 20 días con cierre 178.29 sobre SMA20 168.84, SMA50 158.38 y SMA200 141.48. ADX 31.5 (>25) confirma tendencia; ATR% 2.74 moderado, peso del 6%. MACD hist -0.09 casi plano, no es obstáculo serio.
+- Compra de **TGT** (4% de la cartera)
+  - *En cristiano:* TGT sigue rompiendo máximos y confirma la tendencia, así que añadimos un poco más, pero poco porque se mueve mucho día a día.
+  - *Técnico:* Ya en cartera (+6.7%), con ruptura de 20 días, ADX 29.4, cierre 176.06 sobre SMA50 156.6 y MACD hist positivo 1.33. ATR% 3.23 alto, por eso solo ampliamos 4 puntos hasta ~8%.
+
+**Lo que descarta:** DIS: ya en cartera con cruce MACD, pero el ADX es alto y prefiero no concentrar más al llevar pocos días; no hay ruptura de 20 días. No vendo las posiciones con MACD negativo porque siguen sobre SMA50 con ADX >25 y el trailing stop ya las cuida.
+
+### El Contrarian: 98,297 € (-1.70%)
+
+**Ejecutado hoy a la apertura**
+- Venta de **MPC**: 20 acciones a 355.86 → resultado **-532 €**
+  - *Por qué (decidido el 2026-11-23):* stop automático. El Contrarian sale si pierde más de un 8% desde la compra: el rebote no llega y corta la pérdida antes de que crezca.
+
+**Cómo ve el mercado:** Mercado con sobreventa en energía/refino (VLO, MPC, PSX) tras caídas de 11-18% en 20 días. Mi cartera ya tiene 9 de 10 posiciones y varias con exposición a energía (XOM, PSX). Sin señales de salida: ninguna posición ha vuelto a la SMA20 ni tiene RSI14>70.
+
+**Lo que ya tiene**
+- **HPQ** (-1.6% desde el 2026-11-04, pesa un 8%): **MANTENER**. -1.65%, RSI14 41; precio 27.94 lejos de SMA20 (29.0), sin señal de salida ni stop.
+- **NUE** (-0.3% desde el 2026-11-06, pesa un 8%): **MANTENER**. -0.27%, RSI14 44.5; SMA20 en 257 sigue como objetivo.
+- **PSX** (-2.9% desde el 2026-11-09, pesa un 5%): **MANTENER**. -2.85%, RSI14 33.5, RSI2 1.5: más sobrevendido, pero ya tengo energía (XOM) y no quiero concentrar; objetivo SMA20 255.98.
+- **PM** (-6.1% desde el 2026-11-10, pesa un 8%): **MANTENER**. -6.07%, cerca del stop de -8%, que lo ejecuta el sistema. RSI14 34.1; sin evidencia nueva para vender antes.
+- **XOM** (-4.2% desde el 2026-11-11, pesa un 5%): **MANTENER**. -4.18%, RSI14 36.4; esperando rebote a SMA20 168.
+- **EMR** (-2.4% desde el 2026-11-17, pesa un 8%): **MANTENER**. -2.35%, RSI14 44.6; aún bajo SMA20 163.35.
+- **ACN** (+1.8% desde el 2026-11-19, pesa un 7%): **MANTENER**. +1.8%, RSI14 47.6; muy por debajo de SMA20 246.5, queda recorrido.
+- **MRK** (+1.7% desde el 2026-11-19, pesa un 7%): **MANTENER**. +1.72%, RSI14 47.8; SMA20 144.09 aún por alcanzar.
+- **PFE** (+2.4% desde el 2026-11-20, pesa un 7%): **MANTENER**. +2.39%, RSI14 48.1; cerca de SMA20 28.98, pero aún no llega.
+
+**Decide para mañana**
+- Compra de **MDT** (6% de la cartera)
+  - *En cristiano:* MDT ha bajado fuerte en un solo día dentro de una tendencia sana. Apuesto a que recupere hacia su media de 20 días (~100.6).
+  - *Técnico:* MDT cae -4.56% en 1 día con RSI2 7.66 (<10, sobreventa extrema) y %B 0.10 cerca de la banda inferior. Está por encima de SMA200 (87.16) y su caída a 20 días es solo +2.3%, así que es un susto puntual, no estructural. Objetivo: SMA20 en 100.57.
+
+**Lo que descarta:** VLO y MPC tienen RSI2 ~1 pero caen -16% y -18% en 20 días (posible caída estructural) y sumarían demasiado sector energía junto a PSX y XOM. EBAY tiene RSI2 19.9 (no baja de 10) y RSI14 41, señal débil.
+
+**S&P 500 (el rival a batir)**: 97,111 € (-2.89%)

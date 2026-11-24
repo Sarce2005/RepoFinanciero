@@ -1,19 +1,12 @@
 {
   "agent": "A",
-  "cash": 54151.8788905683,
+  "cash": 59994.152316160245,
   "positions": {
     "TYL": {
       "shares": 15,
       "entry_price": 415.7699890136719,
       "entry_date": "2026-11-06",
       "cost_eur": 5602.276480564161,
-      "ccy": "USD"
-    },
-    "ROP": {
-      "shares": 14,
-      "entry_price": 470.0799865722656,
-      "entry_date": "2026-11-10",
-      "cost_eur": 5901.2624800952035,
       "ccy": "USD"
     },
     "EW": {
@@ -54,19 +47,31 @@
   },
   "pending": [
     {
-      "id": "A-0026",
-      "created": "2026-11-23",
-      "action": "SELL",
-      "ticker": "ROP",
-      "weight": 0.0,
+      "id": "A-0027",
+      "created": "2026-11-24",
+      "action": "BUY",
+      "ticker": "GILD",
+      "weight": 0.06,
       "fraction": 1.0,
-      "reason": "Trailing stop 2xATR: cierre 458.13 < 460.09 (máximo desde la entrada 483.72)",
-      "plain": "",
-      "kind": "stop",
+      "reason": "Ruptura del máximo de 20 días con cierre 178.29 sobre SMA20 168.84, SMA50 158.38 y SMA200 141.48. ADX 31.5 (>25) confirma tendencia; ATR% 2.74 moderado, peso del 6%. MACD hist -0.09 casi plano, no es obstáculo serio.",
+      "plain": "GILD acaba de superar su máximo del último mes y lleva una tendencia alcista clara y fuerte. Entramos con un tamaño moderado para subirnos a la ola.",
+      "kind": "agente",
+      "age": 0
+    },
+    {
+      "id": "A-0028",
+      "created": "2026-11-24",
+      "action": "BUY",
+      "ticker": "TGT",
+      "weight": 0.04,
+      "fraction": 1.0,
+      "reason": "Ya en cartera (+6.7%), con ruptura de 20 días, ADX 29.4, cierre 176.06 sobre SMA50 156.6 y MACD hist positivo 1.33. ATR% 3.23 alto, por eso solo ampliamos 4 puntos hasta ~8%.",
+      "plain": "TGT sigue rompiendo máximos y confirma la tendencia, así que añadimos un poco más, pero poco porque se mueve mucho día a día.",
+      "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 98355.09459448753,
-  "last_run": "2026-11-23",
-  "next_id": 27
+  "last_equity": 98559.34672853966,
+  "last_run": "2026-11-24",
+  "next_id": 29
 }
