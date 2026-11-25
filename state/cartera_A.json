@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 59994.152316160245,
+  "cash": 50302.73355583304,
   "positions": {
     "TYL": {
       "shares": 15,
@@ -38,40 +38,35 @@
       "ccy": "USD"
     },
     "TGT": {
-      "shares": 25,
-      "entry_price": 165.0,
+      "shares": 49,
+      "entry_price": 169.9910216039541,
       "entry_date": "2026-11-23",
-      "cost_eur": 3786.4077179832443,
+      "cost_eur": 7620.171245180509,
+      "ccy": "USD"
+    },
+    "GILD": {
+      "shares": 36,
+      "entry_price": 178.4499969482422,
+      "entry_date": "2026-11-25",
+      "cost_eur": 5857.655233129945,
       "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0027",
-      "created": "2026-11-24",
+      "id": "A-0029",
+      "created": "2026-11-25",
       "action": "BUY",
-      "ticker": "GILD",
-      "weight": 0.06,
+      "ticker": "SHW",
+      "weight": 0.05,
       "fraction": 1.0,
-      "reason": "Ruptura del máximo de 20 días con cierre 178.29 sobre SMA20 168.84, SMA50 158.38 y SMA200 141.48. ADX 31.5 (>25) confirma tendencia; ATR% 2.74 moderado, peso del 6%. MACD hist -0.09 casi plano, no es obstáculo serio.",
-      "plain": "GILD acaba de superar su máximo del último mes y lleva una tendencia alcista clara y fuerte. Entramos con un tamaño moderado para subirnos a la ola.",
-      "kind": "agente",
-      "age": 0
-    },
-    {
-      "id": "A-0028",
-      "created": "2026-11-24",
-      "action": "BUY",
-      "ticker": "TGT",
-      "weight": 0.04,
-      "fraction": 1.0,
-      "reason": "Ya en cartera (+6.7%), con ruptura de 20 días, ADX 29.4, cierre 176.06 sobre SMA50 156.6 y MACD hist positivo 1.33. ATR% 3.23 alto, por eso solo ampliamos 4 puntos hasta ~8%.",
-      "plain": "TGT sigue rompiendo máximos y confirma la tendencia, así que añadimos un poco más, pero poco porque se mueve mucho día a día.",
+      "reason": "Cruce alcista del MACD (hist 0.11), cierre 361.02 sobre SMA20 347.9, SMA50 334.7 y SMA200 330.7. ADX 27.5 confirma tendencia incipiente y RSI14 de 61 deja recorrido. ATR% 2.85, peso moderado.",
+      "plain": "SHW acaba de dar señal de que el impulso gira al alza dentro de una tendencia ya alcista y aún no está sobrecomprada. Entro con un peso pequeño porque se mueve bastante.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 98559.34672853966,
-  "last_run": "2026-11-24",
-  "next_id": 29
+  "last_equity": 98609.66309487919,
+  "last_run": "2026-11-25",
+  "next_id": 30
 }
