@@ -1,14 +1,7 @@
 {
   "agent": "B",
-  "cash": 30410.76450050663,
+  "cash": 32499.051103957845,
   "positions": {
-    "HPQ": {
-      "shares": 316,
-      "entry_price": 28.40999984741211,
-      "entry_date": "2026-11-04",
-      "cost_eur": 8000.7145300093625,
-      "ccy": "USD"
-    },
     "NUE": {
       "shares": 35,
       "entry_price": 248.69000244140625,
@@ -71,35 +64,30 @@
       "entry_date": "2026-11-25",
       "cost_eur": 5890.298162128659,
       "ccy": "USD"
+    },
+    "WST": {
+      "shares": 20,
+      "entry_price": 375.510009765625,
+      "entry_date": "2026-11-27",
+      "cost_eur": 6872.691023816737,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "B-0027",
-      "created": "2026-11-25",
+      "id": "B-0029",
+      "created": "2026-11-27",
       "action": "SELL",
-      "ticker": "HPQ",
+      "ticker": "NUE",
       "weight": 0,
       "fraction": 1.0,
-      "reason": "HPQ cierra a 31.15, por encima de su SMA20 (28.93): objetivo de reversión cumplido con +9.64%. RSI14 en 57.5, sin recorrido adicional de rebote.",
-      "plain": "La acción ya rebotó hasta su precio medio de las últimas 4 semanas y llevamos casi un 10% de ganancia. Toca cobrar y liberar hueco.",
-      "kind": "agente",
-      "age": 0
-    },
-    {
-      "id": "B-0028",
-      "created": "2026-11-25",
-      "action": "BUY",
-      "ticker": "WST",
-      "weight": 0.07,
-      "fraction": 1.0,
-      "reason": "WST cae -4.07% en un día hasta 372.94 con RSI2 9.14 (<10), %B -0.18 (bajo la banda de Bollinger inferior) y sigue por encima de la SMA200 (327.41). Caída de 20 días de solo -7.55%: susto puntual, no hundimiento; objetivo SMA20 en 404.67.",
-      "plain": "Una empresa sana ha caído con fuerza en un solo día y está muy 'estirada' a la baja. Apostamos a que rebote hacia su precio medio, unos 8% más arriba.",
+      "reason": "El cierre de 256.75 está por encima de la SMA20 (255.33) con RSI14 en 52.5: el objetivo de reversión se ha cumplido y la ganancia es de +3.2%. Recojo el rebote según el método.",
+      "plain": "El precio ha vuelto a su media de las últimas 20 sesiones, que era el objetivo. Cobro la ganancia y libero un hueco para nuevas oportunidades.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 99417.03798849568,
-  "last_run": "2026-11-25",
-  "next_id": 29
+  "last_equity": 100369.97427269336,
+  "last_run": "2026-11-27",
+  "next_id": 30
 }

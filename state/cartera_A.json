@@ -1,6 +1,6 @@
 {
   "agent": "A",
-  "cash": 50302.73355583304,
+  "cash": 45645.71726989793,
   "positions": {
     "TYL": {
       "shares": 15,
@@ -50,23 +50,30 @@
       "entry_date": "2026-11-25",
       "cost_eur": 5857.655233129945,
       "ccy": "USD"
+    },
+    "SHW": {
+      "shares": 14,
+      "entry_price": 363.5,
+      "entry_date": "2026-11-27",
+      "cost_eur": 4657.016285935113,
+      "ccy": "USD"
     }
   },
   "pending": [
     {
-      "id": "A-0029",
-      "created": "2026-11-25",
+      "id": "A-0030",
+      "created": "2026-11-27",
       "action": "BUY",
-      "ticker": "SHW",
-      "weight": 0.05,
+      "ticker": "REGN",
+      "weight": 0.06,
       "fraction": 1.0,
-      "reason": "Cruce alcista del MACD (hist 0.11), cierre 361.02 sobre SMA20 347.9, SMA50 334.7 y SMA200 330.7. ADX 27.5 confirma tendencia incipiente y RSI14 de 61 deja recorrido. ATR% 2.85, peso moderado.",
-      "plain": "SHW acaba de dar señal de que el impulso gira al alza dentro de una tendencia ya alcista y aún no está sobrecomprada. Entro con un peso pequeño porque se mueve bastante.",
+      "reason": "Ruptura del máximo de 20 días con cruce alcista del MACD (hist +0.30), ADX 40.8, cierre 992 sobre SMA20 944, SMA50 844 y SMA200 754. ATR% 3.0 es alto, así que peso moderado (6%).",
+      "plain": "REGN acaba de superar su máximo de las últimas 4 semanas y el impulso se ha vuelto positivo; la tendencia es fuerte. Como se mueve bastante cada día, invierto una porción moderada.",
       "kind": "agente",
       "age": 0
     }
   ],
-  "last_equity": 98609.66309487919,
-  "last_run": "2026-11-25",
-  "next_id": 30
+  "last_equity": 98944.84956558554,
+  "last_run": "2026-11-27",
+  "next_id": 31
 }
